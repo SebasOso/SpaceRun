@@ -13,44 +13,63 @@ public class LeversManager : MonoBehaviour
     [SerializeField] private GameObject buttomThree;
     [SerializeField] private Material green;
     [SerializeField] private Material red;
+    [SerializeField] private AudioSource source;
+    private AngularDriveFacade driveFacade;
+    private bool isButtonOneGreen;
+    private bool isButtonTwoGreen;
+    private bool isButtonThreeGreen;
     void Update()
     {
         Lever01();
         Lever02();
-        //Lever03();
-    }
-    private void Lever01()
-    {
-        if(leverOne.transform.rotation.x >= -90 && leverOne.transform.rotation.x <= -70)
+        Lever03();
+        if (isButtonOneGreen && isButtonTwoGreen && isButtonThreeGreen)
         {
-            Debug.Log("aaaaaaaaaaaa");
-            buttomOne.GetComponent<Renderer>().material = green;    
-        }
-        else
-        {
-            buttomOne.GetComponent<Renderer>().material = red;
+            source.Play();
+            driveFacade.enabled = false;
         }
     }
     private void Lever02()
     {
-        if (leverTwo.transform.rotation.x <= 20 && leverTwo.transform.rotation.x >= 0)
+        float rotationX = leverTwo.transform.rotation.eulerAngles.x;
+        if (rotationX >= 290 && rotationX <= 300)
         {
             buttomTwo.GetComponent<Renderer>().material = green;
+            isButtonTwoGreen = true;
         }
         else
         {
             buttomTwo.GetComponent<Renderer>().material = red;
+            isButtonTwoGreen=false;
+        }
+    }
+    private void Lever01()
+    {
+        float rotationX = leverOne.transform.rotation.eulerAngles.x;
+        if (rotationX >= 70 && rotationX <= 90)
+        {
+            buttomOne.GetComponent<Renderer>().material = green;
+            isButtonOneGreen = true;
+        }
+        else
+        {
+            buttomOne.GetComponent<Renderer>().material = red;
+            isButtonOneGreen=false;
         }
     }
     private void Lever03()
     {
-        if (leverThree.transform.rotation.x <= -70  && leverThree.transform.rotation.x >= -90)
+        float rotationX = leverThree.transform.rotation.eulerAngles.x;
+        if (rotationX >= 0 && rotationX <= 20)
         {
             buttomThree.GetComponent<Renderer>().material = green;
+            isButtonThreeGreen = true;
         }
         else
         {
             buttomThree.GetComponent<Renderer>().material = red;
+            isButtonThreeGreen=false;
         }
     }
+
 }
