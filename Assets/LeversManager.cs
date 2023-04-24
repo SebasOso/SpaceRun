@@ -14,20 +14,18 @@ public class LeversManager : MonoBehaviour
     [SerializeField] private Material green;
     [SerializeField] private Material red;
     [SerializeField] private AudioSource source;
-    private AngularDriveFacade driveFacade;
-    private bool isButtonOneGreen;
-    private bool isButtonTwoGreen;
-    private bool isButtonThreeGreen;
+    [SerializeField] private AngularDriveFacade driveFacadeOne;
+    [SerializeField] private AngularDriveFacade driveFacadeTwo;
+    [SerializeField] private AngularDriveFacade driveFacadeThree;
+    [SerializeField]private bool isButtonOneGreen;
+    [SerializeField]private bool isButtonTwoGreen;
+    [SerializeField] private bool isButtonThreeGreen;
+    [SerializeField] private bool isSoundPlayed;
     void Update()
     {
         Lever01();
         Lever02();
         Lever03();
-        if (isButtonOneGreen && isButtonTwoGreen && isButtonThreeGreen)
-        {
-            source.Play();
-            driveFacade.enabled = false;
-        }
     }
     private void Lever02()
     {
@@ -41,6 +39,14 @@ public class LeversManager : MonoBehaviour
         {
             buttomTwo.GetComponent<Renderer>().material = red;
             isButtonTwoGreen=false;
+        }
+        if (isButtonOneGreen && isButtonTwoGreen && isButtonThreeGreen && !source.isPlaying && !isSoundPlayed)
+        {
+            source.Play();
+            driveFacadeOne.enabled = false;
+            driveFacadeTwo.enabled = false;
+            driveFacadeThree.enabled = false;
+            isSoundPlayed = true;
         }
     }
     private void Lever01()
@@ -56,6 +62,7 @@ public class LeversManager : MonoBehaviour
             buttomOne.GetComponent<Renderer>().material = red;
             isButtonOneGreen=false;
         }
+
     }
     private void Lever03()
     {

@@ -3413,6 +3413,9 @@ MonoBehaviour:
   green: {fileID: 2100000, guid: be8c718f71eae03419969a1ed18966f5, type: 2}
   red: {fileID: 2100000, guid: d41f45792dc71724ca3b6c0b2b7daef7, type: 2}
   source: {fileID: 2065289445}
+  driveFacadeOne: {fileID: 2116566819986710581}
+  driveFacadeTwo: {fileID: 2116566820875246852}
+  driveFacadeThree: {fileID: 2116566821569476720}
 --- !u!64 &2139996612
 MeshCollider:
   m_ObjectHideFlags: 0
