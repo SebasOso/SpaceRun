@@ -30,7 +30,7 @@ public class LeversManager : MonoBehaviour
     private void Lever02()
     {
         float rotationX = leverTwo.transform.rotation.eulerAngles.x;
-        if (rotationX >= 290 && rotationX <= 300)
+        if (rotationX >= 270 && rotationX <= 320)
         {
             buttomTwo.GetComponent<Renderer>().material = green;
             isButtonTwoGreen = true;
@@ -52,7 +52,7 @@ public class LeversManager : MonoBehaviour
     private void Lever01()
     {
         float rotationX = leverOne.transform.rotation.eulerAngles.x;
-        if (rotationX >= 70 && rotationX <= 90)
+        if (rotationX >= 60 && rotationX <= 110)
         {
             buttomOne.GetComponent<Renderer>().material = green;
             isButtonOneGreen = true;
@@ -67,7 +67,7 @@ public class LeversManager : MonoBehaviour
     private void Lever03()
     {
         float rotationX = leverThree.transform.rotation.eulerAngles.x;
-        if (rotationX >= 0 && rotationX <= 20)
+        if (rotationX >= 0 && rotationX <= 40)
         {
             buttomThree.GetComponent<Renderer>().material = green;
             isButtonThreeGreen = true;
