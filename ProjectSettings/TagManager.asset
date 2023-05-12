@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Ignite
   - Wand
+  - BateryOne
+  - BateryTwo
+  - Handdle
+  - DownBatterys
+  - Knife
   layers:
   - Default
   - TransparentFX
