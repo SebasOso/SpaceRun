@@ -11,6 +11,8 @@ TagManager:
   - Handdle
   - DownBatterys
   - Knife
+  - KnifePart
+  - ManoDerecha
   layers:
   - Default
   - TransparentFX
