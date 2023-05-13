@@ -13,6 +13,9 @@ TagManager:
   - Knife
   - KnifePart
   - ManoDerecha
+  - MetalPart
+  - Anthen
+  - Wire
   layers:
   - Default
   - TransparentFX
