@@ -16,6 +16,7 @@ TagManager:
   - MetalPart
   - Anthen
   - Wire
+  - C4
   layers:
   - Default
   - TransparentFX
