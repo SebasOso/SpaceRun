@@ -9,7 +9,9 @@ public class ExplossionManager : MonoBehaviour
     private bool hasBeenTouched = false;
     [SerializeField] private GameObject door;
     [SerializeField] private List<GameObject> rests;
-
+    [SerializeField] private ParticleSystem explossionPS;
+    [SerializeField] private AudioSource explosionAudio;
+ 
     private void OnTriggerEnter(Collider other)
     {
         if(other.CompareTag("ManoDerecha") && !hasBeenTouched)
@@ -27,6 +29,8 @@ public class ExplossionManager : MonoBehaviour
         {
             rb.isKinematic = false;
         }
+        explossionPS.Play();
+        explosionAudio.Play();
         yield return new WaitForSeconds(5);
         foreach (GameObject go in rests)
         {
