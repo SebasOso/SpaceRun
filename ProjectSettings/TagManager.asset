@@ -17,6 +17,7 @@ TagManager:
   - Anthen
   - Wire
   - C4
+  - Extintor
   layers:
   - Default
   - TransparentFX
@@ -25,8 +26,8 @@ TagManager:
   - Water
   - UI
   - Floor
-  - 
-  - 
+  - DistanceGrabber
+  - Pistol
   - 
   - 
   - 

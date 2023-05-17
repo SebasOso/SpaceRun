@@ -11,13 +11,17 @@ public class ExplossionManager : MonoBehaviour
     [SerializeField] private List<GameObject> rests;
     [SerializeField] private ParticleSystem explossionPS;
     [SerializeField] private AudioSource explosionAudio;
+    [SerializeField] public bool isC4 = false;
  
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("ManoDerecha") && !hasBeenTouched)
+        if(isC4)
         {
-            StartCoroutine(TicTac(ticTac, breakableDoor, door));
-            hasBeenTouched = true;
+            if (other.CompareTag("ManoDerecha") && !hasBeenTouched)
+            {
+                StartCoroutine(TicTac(ticTac, breakableDoor, door));
+                hasBeenTouched = true;
+            }
         }
     }
     private IEnumerator TicTac(AudioSource audioSource, List<Rigidbody> breakableDoor, GameObject door)
@@ -44,5 +48,9 @@ public class ExplossionManager : MonoBehaviour
         {
             go.SetActive(false);
         }
+    }
+    public void C4()
+    {
+        isC4 = true;
     }
 }
