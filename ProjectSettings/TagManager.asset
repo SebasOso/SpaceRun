@@ -18,6 +18,7 @@ TagManager:
   - Wire
   - C4
   - Extintor
+  - Indice
   layers:
   - Default
   - TransparentFX
