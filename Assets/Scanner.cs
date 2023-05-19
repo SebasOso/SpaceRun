@@ -6,6 +6,7 @@ public class Scanner : MonoBehaviour
 {
     [SerializeField] GameObject Text;
     private bool hasShowned;
+    [SerializeField] AudioSource audioSource;
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log("aaaaaaaaaaaaaaa");
@@ -14,9 +15,15 @@ public class Scanner : MonoBehaviour
             Debug.Log("DERECHAAAAAAAAA");
             if (!hasShowned)
             {
-                Text.SetActive(true);
+                StartCoroutine(ScannerLenght());
                 hasShowned = true;
             }
         }
+    }
+    private IEnumerator ScannerLenght()
+    {
+        audioSource.Play();
+        yield return new WaitForSeconds(audioSource.clip.length);
+        Text.SetActive(true);
     }
 }
