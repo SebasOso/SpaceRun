@@ -20,6 +20,7 @@ TagManager:
   - Extintor
   - Indice
   - Mango
+  - BateryDoor
   layers:
   - Default
   - TransparentFX
