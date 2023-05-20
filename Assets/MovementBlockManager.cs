@@ -6,7 +6,10 @@ public class MovementBlockManager : MonoBehaviour
 {
     [SerializeField] private GameObject tp;
     [SerializeField] private ParticleSystem ps;
-    [SerializeField] private AudioSource audio;
+    [SerializeField] private AudioSource audioWeld;
+    [SerializeField] private GameObject door;
+    [SerializeField] private AudioSource win;
+    [SerializeField] private GameObject[] knifeList;
     void Start()
     {
         tp.SetActive(false);
@@ -18,8 +21,15 @@ public class MovementBlockManager : MonoBehaviour
     private IEnumerator TP()
     {
         ps.Play();
-        yield return new WaitForSeconds(audio.clip.length);
+        audioWeld.Play();
+        yield return new WaitForSeconds(audioWeld.clip.length);
         ps.Pause();
         tp.SetActive(true);
+        Destroy(door);
+        foreach (GameObject go in knifeList)
+        {
+            go.SetActive(false);
+        }
+        win.Play();
     }
 }
