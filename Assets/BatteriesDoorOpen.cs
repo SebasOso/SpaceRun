@@ -17,7 +17,7 @@ public class BatteriesDoorOpen : MonoBehaviour
     void Start()
     {
         initialPosition = m_Door.transform.position;
-        targetPosition = initialPosition + Vector3.up * doorOpenDistance;
+        targetPosition = initialPosition + Vector3.back * doorOpenDistance;
     }
     void Update()
     {
