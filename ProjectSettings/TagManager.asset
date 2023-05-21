@@ -21,6 +21,8 @@ TagManager:
   - Indice
   - Mango
   - BateryDoor
+  - Key
+  - Robot
   layers:
   - Default
   - TransparentFX
