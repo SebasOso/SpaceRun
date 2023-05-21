@@ -22,6 +22,7 @@ public class LeversManager : MonoBehaviour
     [SerializeField] private bool isButtonThreeGreen;
     [SerializeField] private bool isSoundPlayed;
     [SerializeField] private GameObject extintor;
+    [SerializeField] private AudioSource extintorOne;
     void Update()
     {
         Lever01();
@@ -49,6 +50,7 @@ public class LeversManager : MonoBehaviour
             driveFacadeThree.enabled = false;
             isSoundPlayed = true;
             extintor.SetActive(true);
+            extintorOne.Play(); 
         }
     }
     private void Lever01()
