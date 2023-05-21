@@ -1,8 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
-using static UnityEditor.ShaderData;
 
 public class RobotManager : MonoBehaviour
 {
