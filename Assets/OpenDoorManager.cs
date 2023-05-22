@@ -8,6 +8,7 @@ public class OpenDoorManager : MonoBehaviour
     [SerializeField] private GameObject m_DoorOpen;
     [SerializeField] private AudioSource door;
     [SerializeField] private AudioSource completed;
+    [SerializeField] private AudioSource GUIDETHREE;
     [SerializeField] private float doorOpenSpeed = 2f;
     [SerializeField] private float doorOpenDistance = 5f;
 
@@ -40,5 +41,6 @@ public class OpenDoorManager : MonoBehaviour
         m_Door.GetComponent<Collider>().enabled = false;
         door.Play();
         completed.Play();
+        GUIDETHREE.Play();  
     }
 }

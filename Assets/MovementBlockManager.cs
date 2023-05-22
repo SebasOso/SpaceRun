@@ -10,9 +10,12 @@ public class MovementBlockManager : MonoBehaviour
     [SerializeField] private GameObject door;
     [SerializeField] private AudioSource win;
     [SerializeField] private GameObject[] knifeList;
+    [SerializeField] private AudioSource guideOne;
+    [SerializeField] private AudioSource guideTwo;
     void Start()
     {
         tp.SetActive(false);
+        guideOne.Play();    
     }
     public void OnTP()
     {
@@ -31,5 +34,6 @@ public class MovementBlockManager : MonoBehaviour
             go.SetActive(false);
         }
         win.Play();
+        guideTwo.Play();
     }
 }

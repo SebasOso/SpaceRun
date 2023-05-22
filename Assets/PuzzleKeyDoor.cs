@@ -8,6 +8,7 @@ public class PuzzleKeyDoor : MonoBehaviour
     [SerializeField] private GameObject m_DoorOpen;
     [SerializeField] private AudioSource audioDoor;
     [SerializeField] private AudioSource completed;
+    [SerializeField] private AudioSource GUIDESIX;
     [SerializeField] private float doorOpenSpeed = 2f;
     [SerializeField] private float doorOpenDistance = 5f;
 

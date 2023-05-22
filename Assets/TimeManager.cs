@@ -8,8 +8,10 @@ public class TimeManager : MonoBehaviour
 {
     [SerializeField]
     private TextMeshProUGUI textMeshProUGUI;
+    private float minutes = 0;  
     private void Start()
     {
-        textMeshProUGUI.text = GameManager.Instance.tiempoTranscurrido + (" SECONDS :D");
+        minutes = GameManager.Instance.tiempoTranscurrido / 60;
+        textMeshProUGUI.text = minutes + (" MINUTES :D");
     }
 }

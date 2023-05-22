@@ -10,6 +10,7 @@ public class BatteriesDoorOpen : MonoBehaviour
     [SerializeField] private AudioSource completed;
     [SerializeField] private float doorOpenSpeed = 2f;
     [SerializeField] private float doorOpenDistance = 5f;
+    [SerializeField] private AudioSource GUIDEFIVE;
 
     private Vector3 initialPosition;
     private Vector3 targetPosition;
@@ -40,5 +41,6 @@ public class BatteriesDoorOpen : MonoBehaviour
         m_Door.GetComponent<Collider>().enabled = false;
         door.Play();
         completed.Play();
+        GUIDEFIVE.Play();   
     }
 }

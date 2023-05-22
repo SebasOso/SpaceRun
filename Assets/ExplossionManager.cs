@@ -11,6 +11,7 @@ public class ExplossionManager : MonoBehaviour
     [SerializeField] private List<GameObject> rests;
     [SerializeField] private ParticleSystem explossionPS;
     [SerializeField] private AudioSource explosionAudio;
+    [SerializeField] private AudioSource GUIDEFOUR;
     [SerializeField] public bool isC4 = false;
  
     private void OnTriggerEnter(Collider other)
@@ -39,6 +40,7 @@ public class ExplossionManager : MonoBehaviour
         foreach (GameObject go in rests)
         {
             go.SetActive(false);
+            GUIDEFOUR.Play();   
         }
     }
     private IEnumerator DissapearRest(List<GameObject> rests)

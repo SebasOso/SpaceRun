@@ -14,7 +14,7 @@ public class TextManager : MonoBehaviour
     }
     private IEnumerator TextEnumerator()
     {
-        yield return new WaitForSeconds(8);
+        yield return new WaitForSeconds(14);
         textOne.SetActive(false);
         textTwo.SetActive(true);
     }
