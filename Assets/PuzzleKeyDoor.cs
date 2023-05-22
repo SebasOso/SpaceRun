@@ -45,6 +45,7 @@ public class PuzzleKeyDoor : MonoBehaviour
             m_Door.GetComponent<Collider>().enabled = false;
             audioDoor.Play();
             completed.Play();
+            GUIDESIX.Play();
             wasOpenYet = true;
         }
     }
