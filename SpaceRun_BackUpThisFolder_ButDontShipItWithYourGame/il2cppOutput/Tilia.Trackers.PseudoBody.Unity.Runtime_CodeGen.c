@@ -1,0 +1,409 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void Tilia.Trackers.PseudoBody.PseudoBodyColliderTag::.ctor()
+extern void PseudoBodyColliderTag__ctor_mF61CA20230366E6B4333DC573B56E869ECEC927F (void);
+// 0x00000002 UnityEngine.GameObject Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_Source()
+extern void PseudoBodyFacade_get_Source_m48F8847CFE7517CEC346DB71E4353EB70EDA6046 (void);
+// 0x00000003 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_Source(UnityEngine.GameObject)
+extern void PseudoBodyFacade_set_Source_m5CC65777F513B9071F3B574A38D1C65A090E4C6B (void);
+// 0x00000004 UnityEngine.GameObject Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_Offset()
+extern void PseudoBodyFacade_get_Offset_mBCBB1319C7BC55ED9EECA8BEA4CE300C8129A4E8 (void);
+// 0x00000005 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_Offset(UnityEngine.GameObject)
+extern void PseudoBodyFacade_set_Offset_mDCB35FEEF06F12D73EC910A71CF76D9EA7CC018E (void);
+// 0x00000006 System.Single Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_SourceThickness()
+extern void PseudoBodyFacade_get_SourceThickness_m3893CE463E7E854F5181EF54B59096BB35F8927B (void);
+// 0x00000007 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_SourceThickness(System.Single)
+extern void PseudoBodyFacade_set_SourceThickness_m2DDEEF29F508958A752E4D6B0013180927F93154 (void);
+// 0x00000008 UnityEngine.Vector3 Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_SourceDivergenceThreshold()
+extern void PseudoBodyFacade_get_SourceDivergenceThreshold_mBB22C43193F28DAADCCD3FA1FFFF28AF0301405F (void);
+// 0x00000009 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_SourceDivergenceThreshold(UnityEngine.Vector3)
+extern void PseudoBodyFacade_set_SourceDivergenceThreshold_m2821442EE4305855BBB7CE1CDC855EC1C2CC72D6 (void);
+// 0x0000000A Tilia.Interactions.Interactables.Interactors.Collection.InteractorFacadeObservableList Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_IgnoredInteractors()
+extern void PseudoBodyFacade_get_IgnoredInteractors_m5FA40CFBB1BDD3229579D758DE829B80FE17FF2F (void);
+// 0x0000000B System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_IgnoredInteractors(Tilia.Interactions.Interactables.Interactors.Collection.InteractorFacadeObservableList)
+extern void PseudoBodyFacade_set_IgnoredInteractors_mB7B472937AFE7FAAE672AC3069367FF14831600D (void);
+// 0x0000000C Zinnia.Data.Collection.List.GameObjectObservableList Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_IgnoredGameObjects()
+extern void PseudoBodyFacade_get_IgnoredGameObjects_m63EA6EF1676020D1EE65FCECABE049FAB4E52542 (void);
+// 0x0000000D System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_IgnoredGameObjects(Zinnia.Data.Collection.List.GameObjectObservableList)
+extern void PseudoBodyFacade_set_IgnoredGameObjects_m9E44AC373652C2BC2639D4200480E99C767430D4 (void);
+// 0x0000000E Tilia.Trackers.PseudoBody.PseudoBodyProcessor Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_Processor()
+extern void PseudoBodyFacade_get_Processor_m83D6171CCA667B260BFF065DD256F8A386DE8BA6 (void);
+// 0x0000000F System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_Processor(Tilia.Trackers.PseudoBody.PseudoBodyProcessor)
+extern void PseudoBodyFacade_set_Processor_m266B727869A3F86C7C53E8653C21053793EF6EF8 (void);
+// 0x00000010 Tilia.Trackers.PseudoBody.PseudoBodyProcessor/MovementInterest Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_Interest()
+extern void PseudoBodyFacade_get_Interest_mA152EFB5148798E1C57F3DAA3F550EFE7A185094 (void);
+// 0x00000011 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::set_Interest(Tilia.Trackers.PseudoBody.PseudoBodyProcessor/MovementInterest)
+extern void PseudoBodyFacade_set_Interest_m42388C4312E37018A10B443DC8C9DFE598FE88BD (void);
+// 0x00000012 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_IsCharacterControllerGrounded()
+extern void PseudoBodyFacade_get_IsCharacterControllerGrounded_m06E008B77F2D1072B146BD56236C9062AA308C43 (void);
+// 0x00000013 UnityEngine.Rigidbody Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_PhysicsBody()
+extern void PseudoBodyFacade_get_PhysicsBody_mDA4FAC9E9FA6659867E4D14BB92511B8F65A3F72 (void);
+// 0x00000014 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyFacade::get_IsDiverged()
+extern void PseudoBodyFacade_get_IsDiverged_mDD49E97112F237388BEBE16B8BA168841C91FA81 (void);
+// 0x00000015 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::ClearSource()
+extern void PseudoBodyFacade_ClearSource_m52E96B2654588629E3D9985B489F406D074FEEF8 (void);
+// 0x00000016 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::ClearOffset()
+extern void PseudoBodyFacade_ClearOffset_mBCCB040972866E0F12533989D9CD1DA9D0A84FE6 (void);
+// 0x00000017 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::SetSourceDivergenceThresholdX(System.Single)
+extern void PseudoBodyFacade_SetSourceDivergenceThresholdX_m061DC8C6EE0A890206F36B061EBF567A99323636 (void);
+// 0x00000018 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::SetSourceDivergenceThresholdY(System.Single)
+extern void PseudoBodyFacade_SetSourceDivergenceThresholdY_mC0BAB7F47FBD6FC42E904DEFF0DE9C3F84A6ED72 (void);
+// 0x00000019 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::SetSourceDivergenceThresholdZ(System.Single)
+extern void PseudoBodyFacade_SetSourceDivergenceThresholdZ_m67C670D577183097DC147925D20E21BBB430887D (void);
+// 0x0000001A System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::ListenToRigidbodyMovement()
+extern void PseudoBodyFacade_ListenToRigidbodyMovement_mDDBB09994BCCFEC3C97519DB980B28F3444B42AE (void);
+// 0x0000001B System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::SolveBodyCollisions()
+extern void PseudoBodyFacade_SolveBodyCollisions_m093081F32E4F0EEF4BADA724F21A86E9058D9866 (void);
+// 0x0000001C System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::SnapToSource()
+extern void PseudoBodyFacade_SnapToSource_m08DF676DDE0461D278CA2CDB6876279B3B4BE6A5 (void);
+// 0x0000001D System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::Awake()
+extern void PseudoBodyFacade_Awake_m467200FC7439259ED353E656A3D95FEE37CC5A68 (void);
+// 0x0000001E System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::OnAfterSourceChange()
+extern void PseudoBodyFacade_OnAfterSourceChange_m9E1D14E4BD1C3F2D322077D9B8FD0D917C51540A (void);
+// 0x0000001F System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::OnAfterOffsetChange()
+extern void PseudoBodyFacade_OnAfterOffsetChange_mCC8335509D71DBBA1A25DC6CCD9E492B20160665 (void);
+// 0x00000020 System.Void Tilia.Trackers.PseudoBody.PseudoBodyFacade::.ctor()
+extern void PseudoBodyFacade__ctor_mFD6220EEED3AEFD45585E7DB4377DDCA576F7169 (void);
+// 0x00000021 Tilia.Trackers.PseudoBody.PseudoBodyFacade Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_Facade()
+extern void PseudoBodyProcessor_get_Facade_m464017DCDF0233F2F6F04AB37F00C29D3EBC0EDA (void);
+// 0x00000022 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_Facade(Tilia.Trackers.PseudoBody.PseudoBodyFacade)
+extern void PseudoBodyProcessor_set_Facade_mE1465DBB80544E13AD663A86D048732550411506 (void);
+// 0x00000023 UnityEngine.CharacterController Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_Character()
+extern void PseudoBodyProcessor_get_Character_m01CFEBCB73719DCDE4280FF9B8D8F77DEBB080B4 (void);
+// 0x00000024 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_Character(UnityEngine.CharacterController)
+extern void PseudoBodyProcessor_set_Character_mB5532CFB5474131D1B9FECF97960E1E84A2F7797 (void);
+// 0x00000025 UnityEngine.Rigidbody Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_PhysicsBody()
+extern void PseudoBodyProcessor_get_PhysicsBody_m4D3A461FC5FCB06261A2EABC90D588670FA6A03D (void);
+// 0x00000026 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_PhysicsBody(UnityEngine.Rigidbody)
+extern void PseudoBodyProcessor_set_PhysicsBody_mBCA8F4BDBDBE7B57CB9DD0099C59E50883F909D6 (void);
+// 0x00000027 UnityEngine.CapsuleCollider Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_RigidbodyCollider()
+extern void PseudoBodyProcessor_get_RigidbodyCollider_m1EC94587E3A774FCF23CB69CF77FEF3144F7AE38 (void);
+// 0x00000028 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_RigidbodyCollider(UnityEngine.CapsuleCollider)
+extern void PseudoBodyProcessor_set_RigidbodyCollider_mB2BCE835220540DA293E944D7FC4F8A7F810DD64 (void);
+// 0x00000029 Zinnia.Tracking.Collision.CollisionIgnorer Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_CollisionsToIgnore()
+extern void PseudoBodyProcessor_get_CollisionsToIgnore_m53328067B0508545B1583346EE714AC789D7AE57 (void);
+// 0x0000002A System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_CollisionsToIgnore(Zinnia.Tracking.Collision.CollisionIgnorer)
+extern void PseudoBodyProcessor_set_CollisionsToIgnore_mB8BB003E610FE370B3DB130C12BE215FED075C37 (void);
+// 0x0000002B System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_UpdateSourcePosition()
+extern void PseudoBodyProcessor_get_UpdateSourcePosition_mA200DA602B87E58A9FB11DECA46A5CDCE46786A4 (void);
+// 0x0000002C System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_UpdateSourcePosition(System.Boolean)
+extern void PseudoBodyProcessor_set_UpdateSourcePosition_m0793A1CA40D224B770F865D9B12CDCC0B701DF1D (void);
+// 0x0000002D Tilia.Trackers.PseudoBody.PseudoBodyProcessor/MovementInterest Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_Interest()
+extern void PseudoBodyProcessor_get_Interest_mEC05EBB53090B83B791E4B5DD34ABFE03832BC66 (void);
+// 0x0000002E System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_Interest(Tilia.Trackers.PseudoBody.PseudoBodyProcessor/MovementInterest)
+extern void PseudoBodyProcessor_set_Interest_m77519F376642215039D18916627D373B34DACA7A (void);
+// 0x0000002F Tilia.Trackers.PseudoBody.PseudoBodyProcessor/DivergenceState Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_CurrentDivergenceState()
+extern void PseudoBodyProcessor_get_CurrentDivergenceState_mEAC33A76C6894AF0C13DD5858C3BCE60C22187D3 (void);
+// 0x00000030 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_IsCharacterControllerGrounded()
+extern void PseudoBodyProcessor_get_IsCharacterControllerGrounded_m52D0DB0E012E526BC97A088A6F15D9C15405B945 (void);
+// 0x00000031 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyProcessor::get_IsDiverged()
+extern void PseudoBodyProcessor_get_IsDiverged_mFA9BA66C459FBB20E49E4519EE540B65EEB43825 (void);
+// 0x00000032 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::set_IsDiverged(System.Boolean)
+extern void PseudoBodyProcessor_set_IsDiverged_m232BA74800C277FD2FC4BB77F6C1E5B14FD390B1 (void);
+// 0x00000033 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::SnapToSource()
+extern void PseudoBodyProcessor_SnapToSource_mBD74482849068BF94A4F678D13946D89F95000C2 (void);
+// 0x00000034 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::Process()
+extern void PseudoBodyProcessor_Process_mFE031BEA7D3872C9BD5DFD2253C1B83076B6934D (void);
+// 0x00000035 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::SolveBodyCollisions()
+extern void PseudoBodyProcessor_SolveBodyCollisions_mD3E5C1F722DA538325AF7423473EB9679427BA6A (void);
+// 0x00000036 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::ConfigureSourceObjectFollower()
+extern void PseudoBodyProcessor_ConfigureSourceObjectFollower_mA3E61E3B9CE3FE6C74A5C4448EDB7C5218B480C8 (void);
+// 0x00000037 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::ConfigureOffsetObjectFollower()
+extern void PseudoBodyProcessor_ConfigureOffsetObjectFollower_m3D27BF041A062F28794A6061BA3032D54F055DEC (void);
+// 0x00000038 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::IgnoreInteractorsCollisions(UnityEngine.GameObject)
+extern void PseudoBodyProcessor_IgnoreInteractorsCollisions_m93AF768423C1FEF39DE0C25169CA3668D0641C8B (void);
+// 0x00000039 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::ResumeInteractorsCollisions(UnityEngine.GameObject)
+extern void PseudoBodyProcessor_ResumeInteractorsCollisions_mD91517DAA5F6D3BB8D4FFC56FC80E4B9F943C1A9 (void);
+// 0x0000003A System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::IgnoreInteractorsCollisions(Tilia.Interactions.Interactables.Interactors.InteractorFacade)
+extern void PseudoBodyProcessor_IgnoreInteractorsCollisions_mEA4CE48A7E51F39B7FB2DDEA6EE325EF74DCE0EE (void);
+// 0x0000003B System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::ResumeInteractorsCollisions(Tilia.Interactions.Interactables.Interactors.InteractorFacade)
+extern void PseudoBodyProcessor_ResumeInteractorsCollisions_mBCA12EDE2EEE1F11365EB8F9E2438B869F078550 (void);
+// 0x0000003C System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::Awake()
+extern void PseudoBodyProcessor_Awake_m60762687D2D92B93CAFBDA79B9F5280472309ED8 (void);
+// 0x0000003D System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::OnEnable()
+extern void PseudoBodyProcessor_OnEnable_m1F1B64806726C909A1F0050A3D4EF2C6C855312E (void);
+// 0x0000003E System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::OnDisable()
+extern void PseudoBodyProcessor_OnDisable_mC3AC05AD2E20957037667ED27F1E6B96CF5ADE81 (void);
+// 0x0000003F System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::SnapDependentsToSource()
+extern void PseudoBodyProcessor_SnapDependentsToSource_m064EBCD6969CF55CB6DE2BAEFFB89C69B1FF0FAD (void);
+// 0x00000040 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::IgnoreInteractorGrabbedCollision(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void PseudoBodyProcessor_IgnoreInteractorGrabbedCollision_m6772F94D62E7EED750B37AAF2AC7204024BB303A (void);
+// 0x00000041 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::ResumeInteractorUngrabbedCollision(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void PseudoBodyProcessor_ResumeInteractorUngrabbedCollision_mEFD8010D81C63C1907BEB43253FA287D46DB750C (void);
+// 0x00000042 System.Collections.Generic.IReadOnlyList`1<UnityEngine.GameObject> Tilia.Trackers.PseudoBody.PseudoBodyProcessor::GetGameObjectListFromInteractorFacadeList(System.Collections.Generic.IReadOnlyList`1<Tilia.Interactions.Interactables.Interactors.InteractorFacade>)
+extern void PseudoBodyProcessor_GetGameObjectListFromInteractorFacadeList_m7CD5CE16FF5B4529F15093C9920BEDC698643B41 (void);
+// 0x00000043 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::MatchCharacterControllerWithSource(System.Boolean)
+extern void PseudoBodyProcessor_MatchCharacterControllerWithSource_mE68BA85820D5E9D710CC3B7CC1F437F9FE8803CB (void);
+// 0x00000044 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::MatchRigidbodyAndColliderWithCharacterController()
+extern void PseudoBodyProcessor_MatchRigidbodyAndColliderWithCharacterController_m5AE6694078AC4AAF4D51492E59AA3FC946DC5CD4 (void);
+// 0x00000045 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyProcessor::CheckIfCharacterControllerIsGrounded()
+extern void PseudoBodyProcessor_CheckIfCharacterControllerIsGrounded_mCB0E071447CFC94FD4F5D9CF10039FA70403E48C (void);
+// 0x00000046 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::RememberCurrentPositions()
+extern void PseudoBodyProcessor_RememberCurrentPositions_m83CDF9ACB8625091C960DFC20666FC915A7F29A4 (void);
+// 0x00000047 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::EmitIsGroundedChangedEvent(System.Boolean)
+extern void PseudoBodyProcessor_EmitIsGroundedChangedEvent_mD72173459A35DB8FF098315D7AF456139FECE9FE (void);
+// 0x00000048 Tilia.Trackers.PseudoBody.PseudoBodyProcessor/DivergenceState Tilia.Trackers.PseudoBody.PseudoBodyProcessor::GetDivergenceState()
+extern void PseudoBodyProcessor_GetDivergenceState_m943B8F7E336E883AD3364046466CBA0DC847F06D (void);
+// 0x00000049 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::CheckDivergence()
+extern void PseudoBodyProcessor_CheckDivergence_mE91CE81580FD3A78A6DE956A5C9D62A1ED2EFE06 (void);
+// 0x0000004A System.Collections.IEnumerator Tilia.Trackers.PseudoBody.PseudoBodyProcessor::CheckDivergenceAtEndOfFrame()
+extern void PseudoBodyProcessor_CheckDivergenceAtEndOfFrame_mE5566E4A9B22216D78CE308241B30C0D30D824C7 (void);
+// 0x0000004B System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::StopCheckDivergenceAtEndOfFrameRoutine()
+extern void PseudoBodyProcessor_StopCheckDivergenceAtEndOfFrameRoutine_m7B9A8CCCBF34B010295849AC79736F447AA9D9B3 (void);
+// 0x0000004C System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::OnAfterInterestChange()
+extern void PseudoBodyProcessor_OnAfterInterestChange_m6F23AD108E3335A355384623CE479C35821C1493 (void);
+// 0x0000004D System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::.ctor()
+extern void PseudoBodyProcessor__ctor_m8326E3CBE902CA72B5B05B69C5E2D2B57E2D8D67 (void);
+// 0x0000004E System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor::.cctor()
+extern void PseudoBodyProcessor__cctor_mBEA5C1BC8A7AF299209A4E1D510F83A39E26AC5F (void);
+// 0x0000004F System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass57_0::.ctor()
+extern void U3CU3Ec__DisplayClass57_0__ctor_m291B68D52D883CB81E3966DC9E8D5D4EF3FCB737 (void);
+// 0x00000050 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass57_0::<IgnoreInteractorsCollisions>b__0()
+extern void U3CU3Ec__DisplayClass57_0_U3CIgnoreInteractorsCollisionsU3Eb__0_m80440F9E56D9BD7884948F0A09A8665ACE43D87B (void);
+// 0x00000051 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass58_0::.ctor()
+extern void U3CU3Ec__DisplayClass58_0__ctor_m1211B65CD6A016050207036DBE05C7B19690AC52 (void);
+// 0x00000052 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass58_0::<ResumeInteractorsCollisions>b__0()
+extern void U3CU3Ec__DisplayClass58_0_U3CResumeInteractorsCollisionsU3Eb__0_m18A69675C32C111F8ED189A95A04B7AD95EFB39D (void);
+// 0x00000053 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass63_0::.ctor()
+extern void U3CU3Ec__DisplayClass63_0__ctor_mE11171C79E5F75EF3FC7C20E26FACD53170ADED2 (void);
+// 0x00000054 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass63_0::<IgnoreInteractorGrabbedCollision>b__0()
+extern void U3CU3Ec__DisplayClass63_0_U3CIgnoreInteractorGrabbedCollisionU3Eb__0_m72359B6D129095E8043A5D448A766D04980DFFB4 (void);
+// 0x00000055 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass64_0::.ctor()
+extern void U3CU3Ec__DisplayClass64_0__ctor_m74E7F29FA7A0DA3883F49075A0ABBE505590EC04 (void);
+// 0x00000056 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<>c__DisplayClass64_0::<ResumeInteractorUngrabbedCollision>b__0()
+extern void U3CU3Ec__DisplayClass64_0_U3CResumeInteractorUngrabbedCollisionU3Eb__0_m6B38D47D066853ECD7C7A67180A721D2DF29FD75 (void);
+// 0x00000057 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::.ctor(System.Int32)
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73__ctor_m34B9E491369D216952B4C40E0063146EFB08E051 (void);
+// 0x00000058 System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::System.IDisposable.Dispose()
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_IDisposable_Dispose_m5B19F481F734EF6CC6E737EA6DAF45F60BD95B61 (void);
+// 0x00000059 System.Boolean Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::MoveNext()
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73_MoveNext_m19B648101338F63BFA68B7E0515351725568CB6B (void);
+// 0x0000005A System.Object Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE2FA94761C3DB9D7B19AA4F59681F5E33501CFB9 (void);
+// 0x0000005B System.Void Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::System.Collections.IEnumerator.Reset()
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_IEnumerator_Reset_mC55A47C888811EFBD42E009D53E1E0DD6C5AF6EE (void);
+// 0x0000005C System.Object Tilia.Trackers.PseudoBody.PseudoBodyProcessor/<CheckDivergenceAtEndOfFrame>d__73::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_IEnumerator_get_Current_m40374BAB2C42B56CDA9D498CB1E7EB5EAA0B307E (void);
+static Il2CppMethodPointer s_methodPointers[92] = 
+{
+	PseudoBodyColliderTag__ctor_mF61CA20230366E6B4333DC573B56E869ECEC927F,
+	PseudoBodyFacade_get_Source_m48F8847CFE7517CEC346DB71E4353EB70EDA6046,
+	PseudoBodyFacade_set_Source_m5CC65777F513B9071F3B574A38D1C65A090E4C6B,
+	PseudoBodyFacade_get_Offset_mBCBB1319C7BC55ED9EECA8BEA4CE300C8129A4E8,
+	PseudoBodyFacade_set_Offset_mDCB35FEEF06F12D73EC910A71CF76D9EA7CC018E,
+	PseudoBodyFacade_get_SourceThickness_m3893CE463E7E854F5181EF54B59096BB35F8927B,
+	PseudoBodyFacade_set_SourceThickness_m2DDEEF29F508958A752E4D6B0013180927F93154,
+	PseudoBodyFacade_get_SourceDivergenceThreshold_mBB22C43193F28DAADCCD3FA1FFFF28AF0301405F,
+	PseudoBodyFacade_set_SourceDivergenceThreshold_m2821442EE4305855BBB7CE1CDC855EC1C2CC72D6,
+	PseudoBodyFacade_get_IgnoredInteractors_m5FA40CFBB1BDD3229579D758DE829B80FE17FF2F,
+	PseudoBodyFacade_set_IgnoredInteractors_mB7B472937AFE7FAAE672AC3069367FF14831600D,
+	PseudoBodyFacade_get_IgnoredGameObjects_m63EA6EF1676020D1EE65FCECABE049FAB4E52542,
+	PseudoBodyFacade_set_IgnoredGameObjects_m9E44AC373652C2BC2639D4200480E99C767430D4,
+	PseudoBodyFacade_get_Processor_m83D6171CCA667B260BFF065DD256F8A386DE8BA6,
+	PseudoBodyFacade_set_Processor_m266B727869A3F86C7C53E8653C21053793EF6EF8,
+	PseudoBodyFacade_get_Interest_mA152EFB5148798E1C57F3DAA3F550EFE7A185094,
+	PseudoBodyFacade_set_Interest_m42388C4312E37018A10B443DC8C9DFE598FE88BD,
+	PseudoBodyFacade_get_IsCharacterControllerGrounded_m06E008B77F2D1072B146BD56236C9062AA308C43,
+	PseudoBodyFacade_get_PhysicsBody_mDA4FAC9E9FA6659867E4D14BB92511B8F65A3F72,
+	PseudoBodyFacade_get_IsDiverged_mDD49E97112F237388BEBE16B8BA168841C91FA81,
+	PseudoBodyFacade_ClearSource_m52E96B2654588629E3D9985B489F406D074FEEF8,
+	PseudoBodyFacade_ClearOffset_mBCCB040972866E0F12533989D9CD1DA9D0A84FE6,
+	PseudoBodyFacade_SetSourceDivergenceThresholdX_m061DC8C6EE0A890206F36B061EBF567A99323636,
+	PseudoBodyFacade_SetSourceDivergenceThresholdY_mC0BAB7F47FBD6FC42E904DEFF0DE9C3F84A6ED72,
+	PseudoBodyFacade_SetSourceDivergenceThresholdZ_m67C670D577183097DC147925D20E21BBB430887D,
+	PseudoBodyFacade_ListenToRigidbodyMovement_mDDBB09994BCCFEC3C97519DB980B28F3444B42AE,
+	PseudoBodyFacade_SolveBodyCollisions_m093081F32E4F0EEF4BADA724F21A86E9058D9866,
+	PseudoBodyFacade_SnapToSource_m08DF676DDE0461D278CA2CDB6876279B3B4BE6A5,
+	PseudoBodyFacade_Awake_m467200FC7439259ED353E656A3D95FEE37CC5A68,
+	PseudoBodyFacade_OnAfterSourceChange_m9E1D14E4BD1C3F2D322077D9B8FD0D917C51540A,
+	PseudoBodyFacade_OnAfterOffsetChange_mCC8335509D71DBBA1A25DC6CCD9E492B20160665,
+	PseudoBodyFacade__ctor_mFD6220EEED3AEFD45585E7DB4377DDCA576F7169,
+	PseudoBodyProcessor_get_Facade_m464017DCDF0233F2F6F04AB37F00C29D3EBC0EDA,
+	PseudoBodyProcessor_set_Facade_mE1465DBB80544E13AD663A86D048732550411506,
+	PseudoBodyProcessor_get_Character_m01CFEBCB73719DCDE4280FF9B8D8F77DEBB080B4,
+	PseudoBodyProcessor_set_Character_mB5532CFB5474131D1B9FECF97960E1E84A2F7797,
+	PseudoBodyProcessor_get_PhysicsBody_m4D3A461FC5FCB06261A2EABC90D588670FA6A03D,
+	PseudoBodyProcessor_set_PhysicsBody_mBCA8F4BDBDBE7B57CB9DD0099C59E50883F909D6,
+	PseudoBodyProcessor_get_RigidbodyCollider_m1EC94587E3A774FCF23CB69CF77FEF3144F7AE38,
+	PseudoBodyProcessor_set_RigidbodyCollider_mB2BCE835220540DA293E944D7FC4F8A7F810DD64,
+	PseudoBodyProcessor_get_CollisionsToIgnore_m53328067B0508545B1583346EE714AC789D7AE57,
+	PseudoBodyProcessor_set_CollisionsToIgnore_mB8BB003E610FE370B3DB130C12BE215FED075C37,
+	PseudoBodyProcessor_get_UpdateSourcePosition_mA200DA602B87E58A9FB11DECA46A5CDCE46786A4,
+	PseudoBodyProcessor_set_UpdateSourcePosition_m0793A1CA40D224B770F865D9B12CDCC0B701DF1D,
+	PseudoBodyProcessor_get_Interest_mEC05EBB53090B83B791E4B5DD34ABFE03832BC66,
+	PseudoBodyProcessor_set_Interest_m77519F376642215039D18916627D373B34DACA7A,
+	PseudoBodyProcessor_get_CurrentDivergenceState_mEAC33A76C6894AF0C13DD5858C3BCE60C22187D3,
+	PseudoBodyProcessor_get_IsCharacterControllerGrounded_m52D0DB0E012E526BC97A088A6F15D9C15405B945,
+	PseudoBodyProcessor_get_IsDiverged_mFA9BA66C459FBB20E49E4519EE540B65EEB43825,
+	PseudoBodyProcessor_set_IsDiverged_m232BA74800C277FD2FC4BB77F6C1E5B14FD390B1,
+	PseudoBodyProcessor_SnapToSource_mBD74482849068BF94A4F678D13946D89F95000C2,
+	PseudoBodyProcessor_Process_mFE031BEA7D3872C9BD5DFD2253C1B83076B6934D,
+	PseudoBodyProcessor_SolveBodyCollisions_mD3E5C1F722DA538325AF7423473EB9679427BA6A,
+	PseudoBodyProcessor_ConfigureSourceObjectFollower_mA3E61E3B9CE3FE6C74A5C4448EDB7C5218B480C8,
+	PseudoBodyProcessor_ConfigureOffsetObjectFollower_m3D27BF041A062F28794A6061BA3032D54F055DEC,
+	PseudoBodyProcessor_IgnoreInteractorsCollisions_m93AF768423C1FEF39DE0C25169CA3668D0641C8B,
+	PseudoBodyProcessor_ResumeInteractorsCollisions_mD91517DAA5F6D3BB8D4FFC56FC80E4B9F943C1A9,
+	PseudoBodyProcessor_IgnoreInteractorsCollisions_mEA4CE48A7E51F39B7FB2DDEA6EE325EF74DCE0EE,
+	PseudoBodyProcessor_ResumeInteractorsCollisions_mBCA12EDE2EEE1F11365EB8F9E2438B869F078550,
+	PseudoBodyProcessor_Awake_m60762687D2D92B93CAFBDA79B9F5280472309ED8,
+	PseudoBodyProcessor_OnEnable_m1F1B64806726C909A1F0050A3D4EF2C6C855312E,
+	PseudoBodyProcessor_OnDisable_mC3AC05AD2E20957037667ED27F1E6B96CF5ADE81,
+	PseudoBodyProcessor_SnapDependentsToSource_m064EBCD6969CF55CB6DE2BAEFFB89C69B1FF0FAD,
+	PseudoBodyProcessor_IgnoreInteractorGrabbedCollision_m6772F94D62E7EED750B37AAF2AC7204024BB303A,
+	PseudoBodyProcessor_ResumeInteractorUngrabbedCollision_mEFD8010D81C63C1907BEB43253FA287D46DB750C,
+	PseudoBodyProcessor_GetGameObjectListFromInteractorFacadeList_m7CD5CE16FF5B4529F15093C9920BEDC698643B41,
+	PseudoBodyProcessor_MatchCharacterControllerWithSource_mE68BA85820D5E9D710CC3B7CC1F437F9FE8803CB,
+	PseudoBodyProcessor_MatchRigidbodyAndColliderWithCharacterController_m5AE6694078AC4AAF4D51492E59AA3FC946DC5CD4,
+	PseudoBodyProcessor_CheckIfCharacterControllerIsGrounded_mCB0E071447CFC94FD4F5D9CF10039FA70403E48C,
+	PseudoBodyProcessor_RememberCurrentPositions_m83CDF9ACB8625091C960DFC20666FC915A7F29A4,
+	PseudoBodyProcessor_EmitIsGroundedChangedEvent_mD72173459A35DB8FF098315D7AF456139FECE9FE,
+	PseudoBodyProcessor_GetDivergenceState_m943B8F7E336E883AD3364046466CBA0DC847F06D,
+	PseudoBodyProcessor_CheckDivergence_mE91CE81580FD3A78A6DE956A5C9D62A1ED2EFE06,
+	PseudoBodyProcessor_CheckDivergenceAtEndOfFrame_mE5566E4A9B22216D78CE308241B30C0D30D824C7,
+	PseudoBodyProcessor_StopCheckDivergenceAtEndOfFrameRoutine_m7B9A8CCCBF34B010295849AC79736F447AA9D9B3,
+	PseudoBodyProcessor_OnAfterInterestChange_m6F23AD108E3335A355384623CE479C35821C1493,
+	PseudoBodyProcessor__ctor_m8326E3CBE902CA72B5B05B69C5E2D2B57E2D8D67,
+	PseudoBodyProcessor__cctor_mBEA5C1BC8A7AF299209A4E1D510F83A39E26AC5F,
+	U3CU3Ec__DisplayClass57_0__ctor_m291B68D52D883CB81E3966DC9E8D5D4EF3FCB737,
+	U3CU3Ec__DisplayClass57_0_U3CIgnoreInteractorsCollisionsU3Eb__0_m80440F9E56D9BD7884948F0A09A8665ACE43D87B,
+	U3CU3Ec__DisplayClass58_0__ctor_m1211B65CD6A016050207036DBE05C7B19690AC52,
+	U3CU3Ec__DisplayClass58_0_U3CResumeInteractorsCollisionsU3Eb__0_m18A69675C32C111F8ED189A95A04B7AD95EFB39D,
+	U3CU3Ec__DisplayClass63_0__ctor_mE11171C79E5F75EF3FC7C20E26FACD53170ADED2,
+	U3CU3Ec__DisplayClass63_0_U3CIgnoreInteractorGrabbedCollisionU3Eb__0_m72359B6D129095E8043A5D448A766D04980DFFB4,
+	U3CU3Ec__DisplayClass64_0__ctor_m74E7F29FA7A0DA3883F49075A0ABBE505590EC04,
+	U3CU3Ec__DisplayClass64_0_U3CResumeInteractorUngrabbedCollisionU3Eb__0_m6B38D47D066853ECD7C7A67180A721D2DF29FD75,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73__ctor_m34B9E491369D216952B4C40E0063146EFB08E051,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_IDisposable_Dispose_m5B19F481F734EF6CC6E737EA6DAF45F60BD95B61,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73_MoveNext_m19B648101338F63BFA68B7E0515351725568CB6B,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE2FA94761C3DB9D7B19AA4F59681F5E33501CFB9,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_IEnumerator_Reset_mC55A47C888811EFBD42E009D53E1E0DD6C5AF6EE,
+	U3CCheckDivergenceAtEndOfFrameU3Ed__73_System_Collections_IEnumerator_get_Current_m40374BAB2C42B56CDA9D498CB1E7EB5EAA0B307E,
+};
+static const int32_t s_InvokerIndices[92] = 
+{
+	9234,
+	9081,
+	7338,
+	9081,
+	7338,
+	9149,
+	7404,
+	9223,
+	7474,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9038,
+	7294,
+	8952,
+	9081,
+	8952,
+	9234,
+	9234,
+	7404,
+	7404,
+	7404,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	8952,
+	7206,
+	9038,
+	7294,
+	9038,
+	8952,
+	8952,
+	7206,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	7338,
+	7338,
+	7338,
+	7338,
+	9234,
+	9234,
+	9234,
+	9234,
+	7338,
+	7338,
+	6574,
+	7206,
+	9234,
+	8952,
+	9234,
+	7206,
+	9038,
+	9234,
+	9081,
+	9234,
+	9234,
+	9234,
+	15706,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	7294,
+	9234,
+	8952,
+	9081,
+	9234,
+	9081,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Tilia_Trackers_PseudoBody_Unity_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Tilia_Trackers_PseudoBody_Unity_Runtime_CodeGenModule = 
+{
+	"Tilia.Trackers.PseudoBody.Unity.Runtime.dll",
+	92,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

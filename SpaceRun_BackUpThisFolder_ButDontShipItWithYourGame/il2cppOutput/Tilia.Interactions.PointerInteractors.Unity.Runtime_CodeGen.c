@@ -1,0 +1,737 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 Tilia.Interactions.PointerInteractors.DistanceGrabberFacade Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_Facade()
+extern void DistanceGrabberConfigurator_get_Facade_mBB7D8B0FC445FAE0A0579E596ECDDFC23C63F7D3 (void);
+// 0x00000002 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_Facade(Tilia.Interactions.PointerInteractors.DistanceGrabberFacade)
+extern void DistanceGrabberConfigurator_set_Facade_mE201A204A9868D9EA9F3C3D479D350DBC12D5BFF (void);
+// 0x00000003 System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_AlwaysCreateGrabPoint()
+extern void DistanceGrabberConfigurator_get_AlwaysCreateGrabPoint_mA76E2146C8BBEAF40E39CF7714C1AA9BB6FFF9C3 (void);
+// 0x00000004 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_AlwaysCreateGrabPoint(System.Boolean)
+extern void DistanceGrabberConfigurator_set_AlwaysCreateGrabPoint_m9A77E5493B160D4D203813744B214D8BB83EBA94 (void);
+// 0x00000005 System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_ForceKinematicOnTransition()
+extern void DistanceGrabberConfigurator_get_ForceKinematicOnTransition_m4C2F6C7F191DF2B0452B8FC4C0FD97151024CC36 (void);
+// 0x00000006 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_ForceKinematicOnTransition(System.Boolean)
+extern void DistanceGrabberConfigurator_set_ForceKinematicOnTransition_m27258975A928911D683B646EA8D1FF9CC83024A2 (void);
+// 0x00000007 System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_DisablePointerOnInteractorTouch()
+extern void DistanceGrabberConfigurator_get_DisablePointerOnInteractorTouch_m29EC89EFEAD26F07109CD7C12430713E9E500980 (void);
+// 0x00000008 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_DisablePointerOnInteractorTouch(System.Boolean)
+extern void DistanceGrabberConfigurator_set_DisablePointerOnInteractorTouch_mABEA9E359E2C375348E7CCF61E368108224C8CC6 (void);
+// 0x00000009 UnityEngine.GameObject Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_PointerContainer()
+extern void DistanceGrabberConfigurator_get_PointerContainer_mF5BBD8F6644A88F575A06987893AA37BC4F5A6FF (void);
+// 0x0000000A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_PointerContainer(UnityEngine.GameObject)
+extern void DistanceGrabberConfigurator_set_PointerContainer_m723805C2EF24FEF7049D1DDA497593DDDD8B670D (void);
+// 0x0000000B Tilia.Indicators.ObjectPointers.PointerFacade Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_Pointer()
+extern void DistanceGrabberConfigurator_get_Pointer_m45478186B4124BC2E0AFC55695167B92F06FE44C (void);
+// 0x0000000C System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_Pointer(Tilia.Indicators.ObjectPointers.PointerFacade)
+extern void DistanceGrabberConfigurator_set_Pointer_m0E37E7C0CBAEE11745A5643BE6B15E24B39DABBC (void);
+// 0x0000000D Tilia.Interactions.Interactables.Interactables.InteractableGrabber Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_Grabber()
+extern void DistanceGrabberConfigurator_get_Grabber_m68E4FBDF59A2E4ECC7A624624F735E22B97763CD (void);
+// 0x0000000E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_Grabber(Tilia.Interactions.Interactables.Interactables.InteractableGrabber)
+extern void DistanceGrabberConfigurator_set_Grabber_mF8971BDFD84B4AAC825A18F1E8BEEABD08EABB58 (void);
+// 0x0000000F Zinnia.Tracking.Modification.TransformPropertyApplier Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_PropertyApplier()
+extern void DistanceGrabberConfigurator_get_PropertyApplier_mA884B2BF5B4E6E6197191871C5185BB6FFCDC75C (void);
+// 0x00000010 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_PropertyApplier(Zinnia.Tracking.Modification.TransformPropertyApplier)
+extern void DistanceGrabberConfigurator_set_PropertyApplier_m9101D5F0AF17CADC8087AC6436AC74AB0E94D3AE (void);
+// 0x00000011 Zinnia.Event.Proxy.EmptyEventProxyEmitter Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_GrabListener()
+extern void DistanceGrabberConfigurator_get_GrabListener_mBF0EC2BC22C1D5EDA56BBFC0AFEB432F9FFF33BE (void);
+// 0x00000012 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_GrabListener(Zinnia.Event.Proxy.EmptyEventProxyEmitter)
+extern void DistanceGrabberConfigurator_set_GrabListener_m6E62DF97B355C8B96185B0F06A5160C6D6F43CE7 (void);
+// 0x00000013 Zinnia.Event.Proxy.EmptyEventProxyEmitter Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_UngrabListener()
+extern void DistanceGrabberConfigurator_get_UngrabListener_mCDD9FD538E26F4473F4AE9878374FD55ADC7FB66 (void);
+// 0x00000014 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_UngrabListener(Zinnia.Event.Proxy.EmptyEventProxyEmitter)
+extern void DistanceGrabberConfigurator_set_UngrabListener_mC7708CD0423397973CD82827CB2FC65454E8640D (void);
+// 0x00000015 Zinnia.Action.BooleanAction Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_GrabProxy()
+extern void DistanceGrabberConfigurator_get_GrabProxy_m9964259FF3E54D08909F70F35D900F6DBE1AFED3 (void);
+// 0x00000016 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_GrabProxy(Zinnia.Action.BooleanAction)
+extern void DistanceGrabberConfigurator_set_GrabProxy_m49B235A46F20AB371DF2B69081EC79385C421191 (void);
+// 0x00000017 Zinnia.Event.Proxy.EmptyEventProxyEmitter Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_GrabProxyActions()
+extern void DistanceGrabberConfigurator_get_GrabProxyActions_m70F97CD484ACC0F16BD6EB19E446AA7A8E6754F2 (void);
+// 0x00000018 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_GrabProxyActions(Zinnia.Event.Proxy.EmptyEventProxyEmitter)
+extern void DistanceGrabberConfigurator_set_GrabProxyActions_m8A19A88B4774DD0601BC03BDC6255AE6E108BAC4 (void);
+// 0x00000019 Zinnia.Utility.CountdownTimer Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_ReactivatePointerTimer()
+extern void DistanceGrabberConfigurator_get_ReactivatePointerTimer_m42DB97662602651F9D0CB65BB7C49A5C1FC1B8D9 (void);
+// 0x0000001A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_ReactivatePointerTimer(Zinnia.Utility.CountdownTimer)
+extern void DistanceGrabberConfigurator_set_ReactivatePointerTimer_m66BF41D1D8486CF0CC4EE2DC8E3E152C4029D66E (void);
+// 0x0000001B UnityEngine.GameObject Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_EnablePointerContainer()
+extern void DistanceGrabberConfigurator_get_EnablePointerContainer_mD88FD4A42702611CBFF1A0A663C329899A69F38C (void);
+// 0x0000001C System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_EnablePointerContainer(UnityEngine.GameObject)
+extern void DistanceGrabberConfigurator_set_EnablePointerContainer_m9175988632D9C2E9D93F01513CF4D4FED3F39E9E (void);
+// 0x0000001D Zinnia.Event.Proxy.EmptyEventProxyEmitter Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_EnablePointerLogic()
+extern void DistanceGrabberConfigurator_get_EnablePointerLogic_m8CB7472C34ED3D1466A50858642D1494CC2DC558 (void);
+// 0x0000001E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_EnablePointerLogic(Zinnia.Event.Proxy.EmptyEventProxyEmitter)
+extern void DistanceGrabberConfigurator_set_EnablePointerLogic_m0E45B186F9BD13E8D8C2BF5E0B47575661B1EA51 (void);
+// 0x0000001F Zinnia.Rule.Collection.RuleContainerObservableList Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_TargetValidityRules()
+extern void DistanceGrabberConfigurator_get_TargetValidityRules_m06BF6FD5DAF809C1445B3662064B56DC5E2F7492 (void);
+// 0x00000020 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_TargetValidityRules(Zinnia.Rule.Collection.RuleContainerObservableList)
+extern void DistanceGrabberConfigurator_set_TargetValidityRules_mC917165E0EECC7633CEDD794B415505E5ACA4986 (void);
+// 0x00000021 Tilia.Interactions.Interactables.Interactors.InteractorFacade Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_SimulatedInteractor()
+extern void DistanceGrabberConfigurator_get_SimulatedInteractor_mB38F6CD5F8BCBF81E3359A658DD870132BB8F03C (void);
+// 0x00000022 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_SimulatedInteractor(Tilia.Interactions.Interactables.Interactors.InteractorFacade)
+extern void DistanceGrabberConfigurator_set_SimulatedInteractor_mB15D79638519894B756B543440187FA07D3D0F37 (void);
+// 0x00000023 UnityEngine.GameObject Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_SimulateTouchContainer()
+extern void DistanceGrabberConfigurator_get_SimulateTouchContainer_m96C883124F19F6F9DF93D7460C9327B8BCB7AFB0 (void);
+// 0x00000024 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_SimulateTouchContainer(UnityEngine.GameObject)
+extern void DistanceGrabberConfigurator_set_SimulateTouchContainer_mC544D3699E7EEED3E569FF875EB7BD8AF00194CD (void);
+// 0x00000025 UnityEngine.GameObject Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_SimulateGrabContainer()
+extern void DistanceGrabberConfigurator_get_SimulateGrabContainer_m5032099F723D631B0DDBC9F66BB70394759573AE (void);
+// 0x00000026 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_SimulateGrabContainer(UnityEngine.GameObject)
+extern void DistanceGrabberConfigurator_set_SimulateGrabContainer_m21455EA978DE6B88032054225C06BDE9009FFE92 (void);
+// 0x00000027 System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::get_ShouldIgnoreEnablePointer()
+extern void DistanceGrabberConfigurator_get_ShouldIgnoreEnablePointer_m9B8D3EB381E12378B6038FBD6F57F97358EDEFFF (void);
+// 0x00000028 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::set_ShouldIgnoreEnablePointer(System.Boolean)
+extern void DistanceGrabberConfigurator_set_ShouldIgnoreEnablePointer_mFA7EE0986FD73FC0D0D989B8A1074A5ED28A8FA8 (void);
+// 0x00000029 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::ConfigureInteractor()
+extern void DistanceGrabberConfigurator_ConfigureInteractor_mE465C184A713CFC7127DAA5D78C4AF384E71F580 (void);
+// 0x0000002A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::ConfigurePropertyApplier()
+extern void DistanceGrabberConfigurator_ConfigurePropertyApplier_mD7CD2950E47376FC521D7FBA7669913ED5CAD180 (void);
+// 0x0000002B System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::ConfigureReactivatePointerTimer()
+extern void DistanceGrabberConfigurator_ConfigureReactivatePointerTimer_mA26845B76318D0A9A0A50D032588330D09BB0F29 (void);
+// 0x0000002C System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::ConfigurePointerRules()
+extern void DistanceGrabberConfigurator_ConfigurePointerRules_m1D6DF7ED576C76B7E6FDBD9042DB14F036BACF81 (void);
+// 0x0000002D System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::CreateGrabPoint(UnityEngine.RaycastHit)
+extern void DistanceGrabberConfigurator_CreateGrabPoint_m052A0E4267697DC5093C2A74EC2F4762A1DC4F9F (void);
+// 0x0000002E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::DestroyGrabPoint()
+extern void DistanceGrabberConfigurator_DestroyGrabPoint_m2233552ECB741E965F77871AA63116FD6235E810 (void);
+// 0x0000002F System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::MakeInteractableKinematic()
+extern void DistanceGrabberConfigurator_MakeInteractableKinematic_mE4CB3709DE5344B35DC9D8B43CC4975295D7465F (void);
+// 0x00000030 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::RestoreCachedInteractableKinematicState()
+extern void DistanceGrabberConfigurator_RestoreCachedInteractableKinematicState_m9342F32015B6BDF879A7039A4D1B2A7E31079ADC (void);
+// 0x00000031 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::NotifyBeforeGrabbed(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_NotifyBeforeGrabbed_m5FAE6E50566483D2B09ECA43895513B98D9761F6 (void);
+// 0x00000032 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::NotifyGrabCanceled()
+extern void DistanceGrabberConfigurator_NotifyGrabCanceled_m18661DE4964ED7166CDBC976AD6D9B837A513FB8 (void);
+// 0x00000033 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::NotifyAfterGrabbed(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_NotifyAfterGrabbed_mD0CABB9D70C2EB1E68E6677A873F01C43AF550F1 (void);
+// 0x00000034 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::SimulateTouch(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_SimulateTouch_mA384F3C097B4636352B6D50E9BE2152E3DA7B433 (void);
+// 0x00000035 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::SimulateUntouch(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_SimulateUntouch_m2F22B959408720B8817FC8AE51808CDDEE7119F4 (void);
+// 0x00000036 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::CheckGrabValidity(Zinnia.Data.Type.SurfaceData)
+extern void DistanceGrabberConfigurator_CheckGrabValidity_m4A909D45DD09EBB1725C8AFD4AF26B50AE366241 (void);
+// 0x00000037 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::OnEnable()
+extern void DistanceGrabberConfigurator_OnEnable_m4BA70351F21CF14228F548B6DAECC3143344F89E (void);
+// 0x00000038 System.Collections.IEnumerator Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::Start()
+extern void DistanceGrabberConfigurator_Start_mA570C234DD5078689FD216E338E41F9E21A3DEB2 (void);
+// 0x00000039 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::OnDisable()
+extern void DistanceGrabberConfigurator_OnDisable_m319C2744236AC736D0206D290F30447270E458AD (void);
+// 0x0000003A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::RestoreInteractorPrecognitionValue()
+extern void DistanceGrabberConfigurator_RestoreInteractorPrecognitionValue_m737423A63818B5F67BC2A45215B219C6187C92F7 (void);
+// 0x0000003B System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::CanCreateGrabPoint(Tilia.Interactions.Interactables.Interactables.Grab.Action.GrabInteractableAction)
+extern void DistanceGrabberConfigurator_CanCreateGrabPoint_m18FE73DC16853CE765FFBD83158CAB9744E971B6 (void);
+// 0x0000003C System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::RegisterInteractorListeners()
+extern void DistanceGrabberConfigurator_RegisterInteractorListeners_mABBEFEFA1DE6CE6435F6498C60B6B5826460CD90 (void);
+// 0x0000003D System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::UnregisterInteractorListeners()
+extern void DistanceGrabberConfigurator_UnregisterInteractorListeners_m938274053B014447033B591EDD5EC87265DDC353 (void);
+// 0x0000003E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::HasTouched(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_HasTouched_mC7C1C4CB86E5171A25FDCB93EA92D5FE6230F434 (void);
+// 0x0000003F System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::HasUntouched(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_HasUntouched_m541FD9A9B78FA082D78CE3E67C61891AFFC83FCF (void);
+// 0x00000040 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::PerformGrab(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_PerformGrab_mE97F272DF7D5370B5AB9970BD24509CA8FD37180 (void);
+// 0x00000041 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::PerformUngrab(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_PerformUngrab_m277D844AAD72D8C78B07111F8D1A3689448E8FD4 (void);
+// 0x00000042 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::CancelCheckInteractableActiveRoutine()
+extern void DistanceGrabberConfigurator_CancelCheckInteractableActiveRoutine_m2FEACE5F32C5563E7838D0C8AAB8FEC2DB2ABD2B (void);
+// 0x00000043 System.Collections.IEnumerator Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::CheckInteractableIsNotActiveAtEndOfFrame(Tilia.Interactions.Interactables.Interactables.InteractableFacade)
+extern void DistanceGrabberConfigurator_CheckInteractableIsNotActiveAtEndOfFrame_m360F57A527E48946DA02076486E32F4393398636 (void);
+// 0x00000044 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::.ctor()
+extern void DistanceGrabberConfigurator__ctor_m6CC2D4F42B76503044992749379262D4E11083FA (void);
+// 0x00000045 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::.cctor()
+extern void DistanceGrabberConfigurator__cctor_m299FE24E737EF9F7ACFDD793EC10BD371ED62B06 (void);
+// 0x00000046 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::<ConfigureInteractor>b__86_0()
+extern void DistanceGrabberConfigurator_U3CConfigureInteractorU3Eb__86_0_m6CED83684A416F762384DA8C28C31C301A3FF103 (void);
+// 0x00000047 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::<ConfigureInteractor>b__86_1()
+extern void DistanceGrabberConfigurator_U3CConfigureInteractorU3Eb__86_1_mEAF19A02973E34A22AC02E4487289465BE38D935 (void);
+// 0x00000048 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::<ConfigurePointerRules>b__89_0()
+extern void DistanceGrabberConfigurator_U3CConfigurePointerRulesU3Eb__89_0_m92524B0A097F65ABB1B74247ABD61784E3CF9512 (void);
+// 0x00000049 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator::<ConfigurePointerRules>b__89_1()
+extern void DistanceGrabberConfigurator_U3CConfigurePointerRulesU3Eb__89_1_mF4A5D182979758D4023A58899EF12A8BB4F1096A (void);
+// 0x0000004A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::.ctor(System.Int32)
+extern void U3CStartU3Ed__101__ctor_m4F3E632C70B0BBB48C6F670279229A1AE254B133 (void);
+// 0x0000004B System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::System.IDisposable.Dispose()
+extern void U3CStartU3Ed__101_System_IDisposable_Dispose_mD99FD7753634E36B2BA3E7C6922623213EBA2089 (void);
+// 0x0000004C System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::MoveNext()
+extern void U3CStartU3Ed__101_MoveNext_mA31C800C218FCDE48F02747002AA4CB703E424BE (void);
+// 0x0000004D System.Object Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CStartU3Ed__101_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m428CC30ABFFF4C13682433CD6EA7466370B794DA (void);
+// 0x0000004E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::System.Collections.IEnumerator.Reset()
+extern void U3CStartU3Ed__101_System_Collections_IEnumerator_Reset_m07CDACEA3C065548353B525031C66F4F952E9F9F (void);
+// 0x0000004F System.Object Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<Start>d__101::System.Collections.IEnumerator.get_Current()
+extern void U3CStartU3Ed__101_System_Collections_IEnumerator_get_Current_m669C7CCFA6A87FF22DA94991F5274A4021874467 (void);
+// 0x00000050 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::.ctor(System.Int32)
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112__ctor_m3462409E9A6ED4C9DBD40E82D7ABEBD9921A53B1 (void);
+// 0x00000051 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::System.IDisposable.Dispose()
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_IDisposable_Dispose_m45E2694D0E1242180C0360DDA9959DD0A248A4DB (void);
+// 0x00000052 System.Boolean Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::MoveNext()
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_MoveNext_m29F7ABB42882EF55147640C058447D39C02CB741 (void);
+// 0x00000053 System.Object Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m31D4123DECCC61E13B26E6E0C90DBFA62869A95F (void);
+// 0x00000054 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::System.Collections.IEnumerator.Reset()
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_IEnumerator_Reset_mC1F7E985429868058373B9D96D5C4CEE6C5EB592 (void);
+// 0x00000055 System.Object Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator/<CheckInteractableIsNotActiveAtEndOfFrame>d__112::System.Collections.IEnumerator.get_Current()
+extern void U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_IEnumerator_get_Current_mBD58D0EC69F7E732905C26B518EAE80100B9C239 (void);
+// 0x00000056 Tilia.Interactions.Interactables.Interactors.InteractorFacade Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_Interactor()
+extern void DistanceGrabberFacade_get_Interactor_m10E8231ECFCE54AEF94EF6E2A90B55372432D438 (void);
+// 0x00000057 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_Interactor(Tilia.Interactions.Interactables.Interactors.InteractorFacade)
+extern void DistanceGrabberFacade_set_Interactor_mDC03A18D171FEA09C3FDADC7671CB615378A4725 (void);
+// 0x00000058 UnityEngine.GameObject Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_FollowSource()
+extern void DistanceGrabberFacade_get_FollowSource_m7A5DDCBF99626E8761DE2AB63A56594F6A261BD8 (void);
+// 0x00000059 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_FollowSource(UnityEngine.GameObject)
+extern void DistanceGrabberFacade_set_FollowSource_m971FFE0328914C2EEFBA591C2C2D3267218EB4C1 (void);
+// 0x0000005A System.Single Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_TransitionDuration()
+extern void DistanceGrabberFacade_get_TransitionDuration_m773D8845AB6432D2DEDEE49E9B86EC3BF28AC046 (void);
+// 0x0000005B System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_TransitionDuration(System.Single)
+extern void DistanceGrabberFacade_set_TransitionDuration_m6142D4F7A69561D253CBAEDF2B0A42C579F3480E (void);
+// 0x0000005C System.Single Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_UngrabDelay()
+extern void DistanceGrabberFacade_get_UngrabDelay_mDFC4FC7CEC2E839A682D5E89E5C4548E5E5E35CA (void);
+// 0x0000005D System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_UngrabDelay(System.Single)
+extern void DistanceGrabberFacade_set_UngrabDelay_m749B6190F59FAC5DC3372859F6EA3D1915AABB7E (void);
+// 0x0000005E Zinnia.Rule.RuleContainer Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_TargetValidity()
+extern void DistanceGrabberFacade_get_TargetValidity_m45987E0C0D4B07EC0730CD4489B905BE3830C30E (void);
+// 0x0000005F System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_TargetValidity(Zinnia.Rule.RuleContainer)
+extern void DistanceGrabberFacade_set_TargetValidity_m37549E1F2C884F16526CDB8348B235E2F29381FA (void);
+// 0x00000060 Zinnia.Cast.PhysicsCast Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_RaycastRules()
+extern void DistanceGrabberFacade_get_RaycastRules_m843854985073417BC5F421E77EB24F9CCD010F44 (void);
+// 0x00000061 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_RaycastRules(Zinnia.Cast.PhysicsCast)
+extern void DistanceGrabberFacade_set_RaycastRules_mEBB18FED6D442EE3D62A7AB0F71E88CBAC7C4975 (void);
+// 0x00000062 Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_Configuration()
+extern void DistanceGrabberFacade_get_Configuration_mF6309728744A06D0FC7F7A5C6D388BB8783F7766 (void);
+// 0x00000063 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::set_Configuration(Tilia.Interactions.PointerInteractors.DistanceGrabberConfigurator)
+extern void DistanceGrabberFacade_set_Configuration_m11DC5913792BFE35590CF1C39228A57FDD51ECE8 (void);
+// 0x00000064 Tilia.Interactions.Interactables.Interactables.InteractableFacade Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::get_CurrentInteractable()
+extern void DistanceGrabberFacade_get_CurrentInteractable_m53EB6E42A0560B656468C37F807E63CDE7094995 (void);
+// 0x00000065 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::ClearInteractor()
+extern void DistanceGrabberFacade_ClearInteractor_mC4F355108171E44B5A43D65B442F7E5BA5EB9832 (void);
+// 0x00000066 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::ClearFollowSource()
+extern void DistanceGrabberFacade_ClearFollowSource_m49D311453D78FFCA7C607BAAF8B3424322F951CA (void);
+// 0x00000067 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::ClearTargetValidity()
+extern void DistanceGrabberFacade_ClearTargetValidity_m839531555E4749F23EE4800F3B6F3C0DE995CE12 (void);
+// 0x00000068 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::ClearRaycastRules()
+extern void DistanceGrabberFacade_ClearRaycastRules_m51F644DFA7E4F16F8B5143EB6C0D2299A063E047 (void);
+// 0x00000069 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterInteractorChange()
+extern void DistanceGrabberFacade_OnAfterInteractorChange_m9CAC75AB0EB444C16B3CF5F6CA427E8E3A8D554B (void);
+// 0x0000006A System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterFollowSourceChange()
+extern void DistanceGrabberFacade_OnAfterFollowSourceChange_mD97EC25DEE1FA43B1AD38E2C81EBED3BEC20699A (void);
+// 0x0000006B System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterTransitionDurationChange()
+extern void DistanceGrabberFacade_OnAfterTransitionDurationChange_m17F3FC485AC96C8FB2CD19D821E93443EFDCE2F3 (void);
+// 0x0000006C System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterUngrabDelayChange()
+extern void DistanceGrabberFacade_OnAfterUngrabDelayChange_m1C700E922D9229F2C1597CF1F1BB9AD89C0C5EB1 (void);
+// 0x0000006D System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterConfigureReactivatePointerTimerChange()
+extern void DistanceGrabberFacade_OnAfterConfigureReactivatePointerTimerChange_mEF9BCC90F7773D40185CAE5A2E6FA6DED65E5967 (void);
+// 0x0000006E System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterTargetValidityChange()
+extern void DistanceGrabberFacade_OnAfterTargetValidityChange_m828E4D22F4B0F094CF8E922B6A53AB410E8D2FE7 (void);
+// 0x0000006F System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::OnAfterRaycastRulesChange()
+extern void DistanceGrabberFacade_OnAfterRaycastRulesChange_mC8CDBA8AEB45B1ECF63BDF12A2852335C5AEBA25 (void);
+// 0x00000070 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade::.ctor()
+extern void DistanceGrabberFacade__ctor_m226CDD1461B19459981DDD7E15719B9EEE30983E (void);
+// 0x00000071 System.Void Tilia.Interactions.PointerInteractors.DistanceGrabberFacade/UnityEvent::.ctor()
+extern void UnityEvent__ctor_mB977B10EA71B2252DA8C89ECC2D5BEE5AEBFB4E4 (void);
+// 0x00000072 Tilia.Interactions.PointerInteractors.PointerGrabberFacade Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_Facade()
+extern void PointerGrabberConfigurator_get_Facade_m75BB6A4138DF429331305B125CDCDE62FA35F4C7 (void);
+// 0x00000073 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_Facade(Tilia.Interactions.PointerInteractors.PointerGrabberFacade)
+extern void PointerGrabberConfigurator_set_Facade_m96CF8035EDDC1F300B355DCFA6E1197FABDC25C4 (void);
+// 0x00000074 Tilia.Indicators.ObjectPointers.PointerFacade Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_Pointer()
+extern void PointerGrabberConfigurator_get_Pointer_mD19801F3BB068514364FE9606FD487FF40D19579 (void);
+// 0x00000075 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_Pointer(Tilia.Indicators.ObjectPointers.PointerFacade)
+extern void PointerGrabberConfigurator_set_Pointer_mA2ED0EE657919E82250BA93FD236CCDA6BF8A790 (void);
+// 0x00000076 Tilia.Interactions.Interactables.Interactors.InteractorFacade Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_Interactor()
+extern void PointerGrabberConfigurator_get_Interactor_m5EA65B6118EFEDAF401B60FE5748D7FDCFBACE23 (void);
+// 0x00000077 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_Interactor(Tilia.Interactions.Interactables.Interactors.InteractorFacade)
+extern void PointerGrabberConfigurator_set_Interactor_mD5891C6695DA890B3981FA4A393C7D4C4A4042FB (void);
+// 0x00000078 Zinnia.Action.FloatAction Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_LengthAxisProxy()
+extern void PointerGrabberConfigurator_get_LengthAxisProxy_m3FFBC590F2590CD9EBA758F6CC5095C57223183E (void);
+// 0x00000079 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_LengthAxisProxy(Zinnia.Action.FloatAction)
+extern void PointerGrabberConfigurator_set_LengthAxisProxy_mCA322C26E74F34EC12326DC44944154B2A1B6180 (void);
+// 0x0000007A Zinnia.Data.Collection.List.FloatObservableList Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_LengthAxisMultiplierList()
+extern void PointerGrabberConfigurator_get_LengthAxisMultiplierList_mBE74ABB37809C8B8672D4D0B5BD5EE9CB48ADBBA (void);
+// 0x0000007B System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_LengthAxisMultiplierList(Zinnia.Data.Collection.List.FloatObservableList)
+extern void PointerGrabberConfigurator_set_LengthAxisMultiplierList_m3DDD6F20D216FE3469FB204EB526C8C3AF056995 (void);
+// 0x0000007C Zinnia.Rule.Collection.RuleContainerObservableList Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_TargetValidityRules()
+extern void PointerGrabberConfigurator_get_TargetValidityRules_m60BFCE997A757C438A44A12F04E721CD641E9614 (void);
+// 0x0000007D System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_TargetValidityRules(Zinnia.Rule.Collection.RuleContainerObservableList)
+extern void PointerGrabberConfigurator_set_TargetValidityRules_m1B302D179D8C233992F4A3339791F7BA1810D048 (void);
+// 0x0000007E UnityEngine.GameObject Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_GrabOnEnterLogic()
+extern void PointerGrabberConfigurator_get_GrabOnEnterLogic_mCC2583AB22F84A7B7D6F224CEB5DEED765CE516A (void);
+// 0x0000007F System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_GrabOnEnterLogic(UnityEngine.GameObject)
+extern void PointerGrabberConfigurator_set_GrabOnEnterLogic_mF567012F53E643D1ED86033C68C74057182C0C44 (void);
+// 0x00000080 Zinnia.Tracking.Follow.ObjectFollower Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_InteractorFollower()
+extern void PointerGrabberConfigurator_get_InteractorFollower_m1143908BDED938A0B93C5B4EEF35D9D389B89961 (void);
+// 0x00000081 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_InteractorFollower(Zinnia.Tracking.Follow.ObjectFollower)
+extern void PointerGrabberConfigurator_set_InteractorFollower_m4B8BC7CDF4F3190BF6D58399A1ABD07B7645DDE8 (void);
+// 0x00000082 Zinnia.Tracking.Velocity.VelocityTracker Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::get_DefaultVelocityTracker()
+extern void PointerGrabberConfigurator_get_DefaultVelocityTracker_m0A14D49B1419BF47E06EC693961C45FE3C4CEF95 (void);
+// 0x00000083 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::set_DefaultVelocityTracker(Zinnia.Tracking.Velocity.VelocityTracker)
+extern void PointerGrabberConfigurator_set_DefaultVelocityTracker_m69A00E28615D9AD4F4D6B8643C762B5C54EA8A3F (void);
+// 0x00000084 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::ConfigurePointer()
+extern void PointerGrabberConfigurator_ConfigurePointer_m10C247119FCE6D370B65D29FCBF1EB8A6430D851 (void);
+// 0x00000085 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::ConfigureInteractor()
+extern void PointerGrabberConfigurator_ConfigureInteractor_m93CA888D8DB16E72A3C02C138509F048A2668DEF (void);
+// 0x00000086 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::ConfigurePointerRules()
+extern void PointerGrabberConfigurator_ConfigurePointerRules_m098F322E2E6F3F8AEA096C5FFD0D0B4683528574 (void);
+// 0x00000087 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::ConfigureGrabOnEnter()
+extern void PointerGrabberConfigurator_ConfigureGrabOnEnter_m4FC02D390C854490B1CFC3D14D8B03477F80B3A6 (void);
+// 0x00000088 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::OnEnable()
+extern void PointerGrabberConfigurator_OnEnable_m1EE8A153DE1A62CA3AEBF9CD4FEE7A8F28861470 (void);
+// 0x00000089 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::SetLengthAxisProxySource()
+extern void PointerGrabberConfigurator_SetLengthAxisProxySource_mD11EAF3C07AA603E2EA683FADF9356EEA098DF5B (void);
+// 0x0000008A System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::SetObjectFollowerSource()
+extern void PointerGrabberConfigurator_SetObjectFollowerSource_m291ED2ABAF832F175E602440B0508DBBBECBA38E (void);
+// 0x0000008B System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::.ctor()
+extern void PointerGrabberConfigurator__ctor_m85E2FD194707C2A1A6432CA6DAB9E2A8A3C4651F (void);
+// 0x0000008C System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::<ConfigurePointer>b__36_0()
+extern void PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_0_mD9C4088EA0D940ECE174D7644EC985FEB37F956A (void);
+// 0x0000008D System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::<ConfigurePointer>b__36_1()
+extern void PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_1_m55890C446C3C92151726BC0CA5BD163DA0B529F8 (void);
+// 0x0000008E System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::<ConfigurePointer>b__36_2()
+extern void PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_2_m45A937C49A66F1534CC04D48710A692EAE5E0B9C (void);
+// 0x0000008F System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::<ConfigurePointerRules>b__38_0()
+extern void PointerGrabberConfigurator_U3CConfigurePointerRulesU3Eb__38_0_m03116DF475EA2C9EEEE2B3D181638014F15C0245 (void);
+// 0x00000090 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator::<ConfigurePointerRules>b__38_1()
+extern void PointerGrabberConfigurator_U3CConfigurePointerRulesU3Eb__38_1_m5A121DF270FF58FA6434459A3DEB71609EC6BB53 (void);
+// 0x00000091 UnityEngine.GameObject Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_FollowSource()
+extern void PointerGrabberFacade_get_FollowSource_m92030C1D9B509C1E0CB78DAABA9092132543FF41 (void);
+// 0x00000092 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_FollowSource(UnityEngine.GameObject)
+extern void PointerGrabberFacade_set_FollowSource_m6A4876F909C3D3EEDA52CDF0B936F363952FBD69 (void);
+// 0x00000093 Zinnia.Action.BooleanAction Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_ActivationAction()
+extern void PointerGrabberFacade_get_ActivationAction_mEF5CC219FD271E2B47873F026B06B2A078EA52CF (void);
+// 0x00000094 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_ActivationAction(Zinnia.Action.BooleanAction)
+extern void PointerGrabberFacade_set_ActivationAction_mF92D52D5E0059E6FADCF966F2212F55BC4502963 (void);
+// 0x00000095 Zinnia.Action.BooleanAction Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_GrabAction()
+extern void PointerGrabberFacade_get_GrabAction_m0CA5CE3481BEFEEC9CC460958BE9DE34FEB4ECC5 (void);
+// 0x00000096 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_GrabAction(Zinnia.Action.BooleanAction)
+extern void PointerGrabberFacade_set_GrabAction_mD1FC9F83E07AFEBCB78E8C398C786EA864CD508B (void);
+// 0x00000097 Zinnia.Action.FloatAction Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_LengthAxisAction()
+extern void PointerGrabberFacade_get_LengthAxisAction_m557618498213FF4E920E975945EBD58D6667F9B1 (void);
+// 0x00000098 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_LengthAxisAction(Zinnia.Action.FloatAction)
+extern void PointerGrabberFacade_set_LengthAxisAction_m84372394A58DBB9102144729779C4D94DB02986B (void);
+// 0x00000099 System.Single Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_LengthAxisMultiplier()
+extern void PointerGrabberFacade_get_LengthAxisMultiplier_m07D52472E66111AF1029ADB7A0E35B8A25D04F61 (void);
+// 0x0000009A System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_LengthAxisMultiplier(System.Single)
+extern void PointerGrabberFacade_set_LengthAxisMultiplier_m528C0B7E597CA7F262191823A2EB044F74C7A9C4 (void);
+// 0x0000009B Zinnia.Tracking.Velocity.VelocityTracker Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_VelocityTracker()
+extern void PointerGrabberFacade_get_VelocityTracker_m9FF94C0F0C7B4D30953727EFC7493CF16CCF88EF (void);
+// 0x0000009C System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_VelocityTracker(Zinnia.Tracking.Velocity.VelocityTracker)
+extern void PointerGrabberFacade_set_VelocityTracker_mA98A695EDBAB1F11A729DAA9F610337AE2E78E00 (void);
+// 0x0000009D System.Boolean Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_AutoGrabOnEnter()
+extern void PointerGrabberFacade_get_AutoGrabOnEnter_m1B2115ADE7DEDE950C9BD280D7415ABCA57BB10F (void);
+// 0x0000009E System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_AutoGrabOnEnter(System.Boolean)
+extern void PointerGrabberFacade_set_AutoGrabOnEnter_m62855FB394F274B7E3021FE9553E0000242FDE0F (void);
+// 0x0000009F Zinnia.Rule.RuleContainer Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_TargetValidity()
+extern void PointerGrabberFacade_get_TargetValidity_mC523CB2A83E870D930F1B90157321A532827B959 (void);
+// 0x000000A0 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_TargetValidity(Zinnia.Rule.RuleContainer)
+extern void PointerGrabberFacade_set_TargetValidity_m665FE5C175E19EB3C24CA626C7C146019D4F8780 (void);
+// 0x000000A1 Zinnia.Cast.PhysicsCast Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_RaycastRules()
+extern void PointerGrabberFacade_get_RaycastRules_mD6D3B123CE41CFBD66C569966D3A0B5345836E30 (void);
+// 0x000000A2 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_RaycastRules(Zinnia.Cast.PhysicsCast)
+extern void PointerGrabberFacade_set_RaycastRules_m26331348101B21130FEF2EDAB55B7C7212D0F4F7 (void);
+// 0x000000A3 Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator Tilia.Interactions.PointerInteractors.PointerGrabberFacade::get_Configuration()
+extern void PointerGrabberFacade_get_Configuration_m53E4BDC35D1879B195AFCB3B332BD39DC6770834 (void);
+// 0x000000A4 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::set_Configuration(Tilia.Interactions.PointerInteractors.PointerGrabberConfigurator)
+extern void PointerGrabberFacade_set_Configuration_m19E9847B34D42042DB1DD500AD1A2B5AD0017706 (void);
+// 0x000000A5 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterFollowSourceChange()
+extern void PointerGrabberFacade_OnAfterFollowSourceChange_mAB664DD57B09CB969ED7C3C2032EE5885B733BD7 (void);
+// 0x000000A6 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterActivationActionChange()
+extern void PointerGrabberFacade_OnAfterActivationActionChange_m7F8E43E069E36F3DE964EB439EFD6FC6BA35EA22 (void);
+// 0x000000A7 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterGrabActionChange()
+extern void PointerGrabberFacade_OnAfterGrabActionChange_mC843FF9BBA3A3812A004D204200B29CA86126E00 (void);
+// 0x000000A8 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterLengthAxisActionChange()
+extern void PointerGrabberFacade_OnAfterLengthAxisActionChange_mE780ED661FC0952757C95B92B0852ED82AA1BC8C (void);
+// 0x000000A9 System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterLengthAxisMultiplierChange()
+extern void PointerGrabberFacade_OnAfterLengthAxisMultiplierChange_mBF773DDF03B462C0C838A25E6D052EC4C82DF1C9 (void);
+// 0x000000AA System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterVelocityTrackerChange()
+extern void PointerGrabberFacade_OnAfterVelocityTrackerChange_mC60EC7D40CCDD2FFD6E1168B9C8114905B3BDEFE (void);
+// 0x000000AB System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterAutoGrabOnEnterChange()
+extern void PointerGrabberFacade_OnAfterAutoGrabOnEnterChange_m62F1B6F8B3DC9CA1AB2B16B5238E2847EA789041 (void);
+// 0x000000AC System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterTargetValidityChange()
+extern void PointerGrabberFacade_OnAfterTargetValidityChange_mB9F8793489CE351E492036C1AC82A07023074006 (void);
+// 0x000000AD System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::OnAfterRaycastRulesChange()
+extern void PointerGrabberFacade_OnAfterRaycastRulesChange_m77D62C28F5681D05EA6A28C818F0BB931CA65929 (void);
+// 0x000000AE System.Void Tilia.Interactions.PointerInteractors.PointerGrabberFacade::.ctor()
+extern void PointerGrabberFacade__ctor_m18F0EB03922C9CF39C6CF445FDDFDA9B8D8494F9 (void);
+static Il2CppMethodPointer s_methodPointers[174] = 
+{
+	DistanceGrabberConfigurator_get_Facade_mBB7D8B0FC445FAE0A0579E596ECDDFC23C63F7D3,
+	DistanceGrabberConfigurator_set_Facade_mE201A204A9868D9EA9F3C3D479D350DBC12D5BFF,
+	DistanceGrabberConfigurator_get_AlwaysCreateGrabPoint_mA76E2146C8BBEAF40E39CF7714C1AA9BB6FFF9C3,
+	DistanceGrabberConfigurator_set_AlwaysCreateGrabPoint_m9A77E5493B160D4D203813744B214D8BB83EBA94,
+	DistanceGrabberConfigurator_get_ForceKinematicOnTransition_m4C2F6C7F191DF2B0452B8FC4C0FD97151024CC36,
+	DistanceGrabberConfigurator_set_ForceKinematicOnTransition_m27258975A928911D683B646EA8D1FF9CC83024A2,
+	DistanceGrabberConfigurator_get_DisablePointerOnInteractorTouch_m29EC89EFEAD26F07109CD7C12430713E9E500980,
+	DistanceGrabberConfigurator_set_DisablePointerOnInteractorTouch_mABEA9E359E2C375348E7CCF61E368108224C8CC6,
+	DistanceGrabberConfigurator_get_PointerContainer_mF5BBD8F6644A88F575A06987893AA37BC4F5A6FF,
+	DistanceGrabberConfigurator_set_PointerContainer_m723805C2EF24FEF7049D1DDA497593DDDD8B670D,
+	DistanceGrabberConfigurator_get_Pointer_m45478186B4124BC2E0AFC55695167B92F06FE44C,
+	DistanceGrabberConfigurator_set_Pointer_m0E37E7C0CBAEE11745A5643BE6B15E24B39DABBC,
+	DistanceGrabberConfigurator_get_Grabber_m68E4FBDF59A2E4ECC7A624624F735E22B97763CD,
+	DistanceGrabberConfigurator_set_Grabber_mF8971BDFD84B4AAC825A18F1E8BEEABD08EABB58,
+	DistanceGrabberConfigurator_get_PropertyApplier_mA884B2BF5B4E6E6197191871C5185BB6FFCDC75C,
+	DistanceGrabberConfigurator_set_PropertyApplier_m9101D5F0AF17CADC8087AC6436AC74AB0E94D3AE,
+	DistanceGrabberConfigurator_get_GrabListener_mBF0EC2BC22C1D5EDA56BBFC0AFEB432F9FFF33BE,
+	DistanceGrabberConfigurator_set_GrabListener_m6E62DF97B355C8B96185B0F06A5160C6D6F43CE7,
+	DistanceGrabberConfigurator_get_UngrabListener_mCDD9FD538E26F4473F4AE9878374FD55ADC7FB66,
+	DistanceGrabberConfigurator_set_UngrabListener_mC7708CD0423397973CD82827CB2FC65454E8640D,
+	DistanceGrabberConfigurator_get_GrabProxy_m9964259FF3E54D08909F70F35D900F6DBE1AFED3,
+	DistanceGrabberConfigurator_set_GrabProxy_m49B235A46F20AB371DF2B69081EC79385C421191,
+	DistanceGrabberConfigurator_get_GrabProxyActions_m70F97CD484ACC0F16BD6EB19E446AA7A8E6754F2,
+	DistanceGrabberConfigurator_set_GrabProxyActions_m8A19A88B4774DD0601BC03BDC6255AE6E108BAC4,
+	DistanceGrabberConfigurator_get_ReactivatePointerTimer_m42DB97662602651F9D0CB65BB7C49A5C1FC1B8D9,
+	DistanceGrabberConfigurator_set_ReactivatePointerTimer_m66BF41D1D8486CF0CC4EE2DC8E3E152C4029D66E,
+	DistanceGrabberConfigurator_get_EnablePointerContainer_mD88FD4A42702611CBFF1A0A663C329899A69F38C,
+	DistanceGrabberConfigurator_set_EnablePointerContainer_m9175988632D9C2E9D93F01513CF4D4FED3F39E9E,
+	DistanceGrabberConfigurator_get_EnablePointerLogic_m8CB7472C34ED3D1466A50858642D1494CC2DC558,
+	DistanceGrabberConfigurator_set_EnablePointerLogic_m0E45B186F9BD13E8D8C2BF5E0B47575661B1EA51,
+	DistanceGrabberConfigurator_get_TargetValidityRules_m06BF6FD5DAF809C1445B3662064B56DC5E2F7492,
+	DistanceGrabberConfigurator_set_TargetValidityRules_mC917165E0EECC7633CEDD794B415505E5ACA4986,
+	DistanceGrabberConfigurator_get_SimulatedInteractor_mB38F6CD5F8BCBF81E3359A658DD870132BB8F03C,
+	DistanceGrabberConfigurator_set_SimulatedInteractor_mB15D79638519894B756B543440187FA07D3D0F37,
+	DistanceGrabberConfigurator_get_SimulateTouchContainer_m96C883124F19F6F9DF93D7460C9327B8BCB7AFB0,
+	DistanceGrabberConfigurator_set_SimulateTouchContainer_mC544D3699E7EEED3E569FF875EB7BD8AF00194CD,
+	DistanceGrabberConfigurator_get_SimulateGrabContainer_m5032099F723D631B0DDBC9F66BB70394759573AE,
+	DistanceGrabberConfigurator_set_SimulateGrabContainer_m21455EA978DE6B88032054225C06BDE9009FFE92,
+	DistanceGrabberConfigurator_get_ShouldIgnoreEnablePointer_m9B8D3EB381E12378B6038FBD6F57F97358EDEFFF,
+	DistanceGrabberConfigurator_set_ShouldIgnoreEnablePointer_mFA7EE0986FD73FC0D0D989B8A1074A5ED28A8FA8,
+	DistanceGrabberConfigurator_ConfigureInteractor_mE465C184A713CFC7127DAA5D78C4AF384E71F580,
+	DistanceGrabberConfigurator_ConfigurePropertyApplier_mD7CD2950E47376FC521D7FBA7669913ED5CAD180,
+	DistanceGrabberConfigurator_ConfigureReactivatePointerTimer_mA26845B76318D0A9A0A50D032588330D09BB0F29,
+	DistanceGrabberConfigurator_ConfigurePointerRules_m1D6DF7ED576C76B7E6FDBD9042DB14F036BACF81,
+	DistanceGrabberConfigurator_CreateGrabPoint_m052A0E4267697DC5093C2A74EC2F4762A1DC4F9F,
+	DistanceGrabberConfigurator_DestroyGrabPoint_m2233552ECB741E965F77871AA63116FD6235E810,
+	DistanceGrabberConfigurator_MakeInteractableKinematic_mE4CB3709DE5344B35DC9D8B43CC4975295D7465F,
+	DistanceGrabberConfigurator_RestoreCachedInteractableKinematicState_m9342F32015B6BDF879A7039A4D1B2A7E31079ADC,
+	DistanceGrabberConfigurator_NotifyBeforeGrabbed_m5FAE6E50566483D2B09ECA43895513B98D9761F6,
+	DistanceGrabberConfigurator_NotifyGrabCanceled_m18661DE4964ED7166CDBC976AD6D9B837A513FB8,
+	DistanceGrabberConfigurator_NotifyAfterGrabbed_mD0CABB9D70C2EB1E68E6677A873F01C43AF550F1,
+	DistanceGrabberConfigurator_SimulateTouch_mA384F3C097B4636352B6D50E9BE2152E3DA7B433,
+	DistanceGrabberConfigurator_SimulateUntouch_m2F22B959408720B8817FC8AE51808CDDEE7119F4,
+	DistanceGrabberConfigurator_CheckGrabValidity_m4A909D45DD09EBB1725C8AFD4AF26B50AE366241,
+	DistanceGrabberConfigurator_OnEnable_m4BA70351F21CF14228F548B6DAECC3143344F89E,
+	DistanceGrabberConfigurator_Start_mA570C234DD5078689FD216E338E41F9E21A3DEB2,
+	DistanceGrabberConfigurator_OnDisable_m319C2744236AC736D0206D290F30447270E458AD,
+	DistanceGrabberConfigurator_RestoreInteractorPrecognitionValue_m737423A63818B5F67BC2A45215B219C6187C92F7,
+	DistanceGrabberConfigurator_CanCreateGrabPoint_m18FE73DC16853CE765FFBD83158CAB9744E971B6,
+	DistanceGrabberConfigurator_RegisterInteractorListeners_mABBEFEFA1DE6CE6435F6498C60B6B5826460CD90,
+	DistanceGrabberConfigurator_UnregisterInteractorListeners_m938274053B014447033B591EDD5EC87265DDC353,
+	DistanceGrabberConfigurator_HasTouched_mC7C1C4CB86E5171A25FDCB93EA92D5FE6230F434,
+	DistanceGrabberConfigurator_HasUntouched_m541FD9A9B78FA082D78CE3E67C61891AFFC83FCF,
+	DistanceGrabberConfigurator_PerformGrab_mE97F272DF7D5370B5AB9970BD24509CA8FD37180,
+	DistanceGrabberConfigurator_PerformUngrab_m277D844AAD72D8C78B07111F8D1A3689448E8FD4,
+	DistanceGrabberConfigurator_CancelCheckInteractableActiveRoutine_m2FEACE5F32C5563E7838D0C8AAB8FEC2DB2ABD2B,
+	DistanceGrabberConfigurator_CheckInteractableIsNotActiveAtEndOfFrame_m360F57A527E48946DA02076486E32F4393398636,
+	DistanceGrabberConfigurator__ctor_m6CC2D4F42B76503044992749379262D4E11083FA,
+	DistanceGrabberConfigurator__cctor_m299FE24E737EF9F7ACFDD793EC10BD371ED62B06,
+	DistanceGrabberConfigurator_U3CConfigureInteractorU3Eb__86_0_m6CED83684A416F762384DA8C28C31C301A3FF103,
+	DistanceGrabberConfigurator_U3CConfigureInteractorU3Eb__86_1_mEAF19A02973E34A22AC02E4487289465BE38D935,
+	DistanceGrabberConfigurator_U3CConfigurePointerRulesU3Eb__89_0_m92524B0A097F65ABB1B74247ABD61784E3CF9512,
+	DistanceGrabberConfigurator_U3CConfigurePointerRulesU3Eb__89_1_mF4A5D182979758D4023A58899EF12A8BB4F1096A,
+	U3CStartU3Ed__101__ctor_m4F3E632C70B0BBB48C6F670279229A1AE254B133,
+	U3CStartU3Ed__101_System_IDisposable_Dispose_mD99FD7753634E36B2BA3E7C6922623213EBA2089,
+	U3CStartU3Ed__101_MoveNext_mA31C800C218FCDE48F02747002AA4CB703E424BE,
+	U3CStartU3Ed__101_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m428CC30ABFFF4C13682433CD6EA7466370B794DA,
+	U3CStartU3Ed__101_System_Collections_IEnumerator_Reset_m07CDACEA3C065548353B525031C66F4F952E9F9F,
+	U3CStartU3Ed__101_System_Collections_IEnumerator_get_Current_m669C7CCFA6A87FF22DA94991F5274A4021874467,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112__ctor_m3462409E9A6ED4C9DBD40E82D7ABEBD9921A53B1,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_IDisposable_Dispose_m45E2694D0E1242180C0360DDA9959DD0A248A4DB,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_MoveNext_m29F7ABB42882EF55147640C058447D39C02CB741,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m31D4123DECCC61E13B26E6E0C90DBFA62869A95F,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_IEnumerator_Reset_mC1F7E985429868058373B9D96D5C4CEE6C5EB592,
+	U3CCheckInteractableIsNotActiveAtEndOfFrameU3Ed__112_System_Collections_IEnumerator_get_Current_mBD58D0EC69F7E732905C26B518EAE80100B9C239,
+	DistanceGrabberFacade_get_Interactor_m10E8231ECFCE54AEF94EF6E2A90B55372432D438,
+	DistanceGrabberFacade_set_Interactor_mDC03A18D171FEA09C3FDADC7671CB615378A4725,
+	DistanceGrabberFacade_get_FollowSource_m7A5DDCBF99626E8761DE2AB63A56594F6A261BD8,
+	DistanceGrabberFacade_set_FollowSource_m971FFE0328914C2EEFBA591C2C2D3267218EB4C1,
+	DistanceGrabberFacade_get_TransitionDuration_m773D8845AB6432D2DEDEE49E9B86EC3BF28AC046,
+	DistanceGrabberFacade_set_TransitionDuration_m6142D4F7A69561D253CBAEDF2B0A42C579F3480E,
+	DistanceGrabberFacade_get_UngrabDelay_mDFC4FC7CEC2E839A682D5E89E5C4548E5E5E35CA,
+	DistanceGrabberFacade_set_UngrabDelay_m749B6190F59FAC5DC3372859F6EA3D1915AABB7E,
+	DistanceGrabberFacade_get_TargetValidity_m45987E0C0D4B07EC0730CD4489B905BE3830C30E,
+	DistanceGrabberFacade_set_TargetValidity_m37549E1F2C884F16526CDB8348B235E2F29381FA,
+	DistanceGrabberFacade_get_RaycastRules_m843854985073417BC5F421E77EB24F9CCD010F44,
+	DistanceGrabberFacade_set_RaycastRules_mEBB18FED6D442EE3D62A7AB0F71E88CBAC7C4975,
+	DistanceGrabberFacade_get_Configuration_mF6309728744A06D0FC7F7A5C6D388BB8783F7766,
+	DistanceGrabberFacade_set_Configuration_m11DC5913792BFE35590CF1C39228A57FDD51ECE8,
+	DistanceGrabberFacade_get_CurrentInteractable_m53EB6E42A0560B656468C37F807E63CDE7094995,
+	DistanceGrabberFacade_ClearInteractor_mC4F355108171E44B5A43D65B442F7E5BA5EB9832,
+	DistanceGrabberFacade_ClearFollowSource_m49D311453D78FFCA7C607BAAF8B3424322F951CA,
+	DistanceGrabberFacade_ClearTargetValidity_m839531555E4749F23EE4800F3B6F3C0DE995CE12,
+	DistanceGrabberFacade_ClearRaycastRules_m51F644DFA7E4F16F8B5143EB6C0D2299A063E047,
+	DistanceGrabberFacade_OnAfterInteractorChange_m9CAC75AB0EB444C16B3CF5F6CA427E8E3A8D554B,
+	DistanceGrabberFacade_OnAfterFollowSourceChange_mD97EC25DEE1FA43B1AD38E2C81EBED3BEC20699A,
+	DistanceGrabberFacade_OnAfterTransitionDurationChange_m17F3FC485AC96C8FB2CD19D821E93443EFDCE2F3,
+	DistanceGrabberFacade_OnAfterUngrabDelayChange_m1C700E922D9229F2C1597CF1F1BB9AD89C0C5EB1,
+	DistanceGrabberFacade_OnAfterConfigureReactivatePointerTimerChange_mEF9BCC90F7773D40185CAE5A2E6FA6DED65E5967,
+	DistanceGrabberFacade_OnAfterTargetValidityChange_m828E4D22F4B0F094CF8E922B6A53AB410E8D2FE7,
+	DistanceGrabberFacade_OnAfterRaycastRulesChange_mC8CDBA8AEB45B1ECF63BDF12A2852335C5AEBA25,
+	DistanceGrabberFacade__ctor_m226CDD1461B19459981DDD7E15719B9EEE30983E,
+	UnityEvent__ctor_mB977B10EA71B2252DA8C89ECC2D5BEE5AEBFB4E4,
+	PointerGrabberConfigurator_get_Facade_m75BB6A4138DF429331305B125CDCDE62FA35F4C7,
+	PointerGrabberConfigurator_set_Facade_m96CF8035EDDC1F300B355DCFA6E1197FABDC25C4,
+	PointerGrabberConfigurator_get_Pointer_mD19801F3BB068514364FE9606FD487FF40D19579,
+	PointerGrabberConfigurator_set_Pointer_mA2ED0EE657919E82250BA93FD236CCDA6BF8A790,
+	PointerGrabberConfigurator_get_Interactor_m5EA65B6118EFEDAF401B60FE5748D7FDCFBACE23,
+	PointerGrabberConfigurator_set_Interactor_mD5891C6695DA890B3981FA4A393C7D4C4A4042FB,
+	PointerGrabberConfigurator_get_LengthAxisProxy_m3FFBC590F2590CD9EBA758F6CC5095C57223183E,
+	PointerGrabberConfigurator_set_LengthAxisProxy_mCA322C26E74F34EC12326DC44944154B2A1B6180,
+	PointerGrabberConfigurator_get_LengthAxisMultiplierList_mBE74ABB37809C8B8672D4D0B5BD5EE9CB48ADBBA,
+	PointerGrabberConfigurator_set_LengthAxisMultiplierList_m3DDD6F20D216FE3469FB204EB526C8C3AF056995,
+	PointerGrabberConfigurator_get_TargetValidityRules_m60BFCE997A757C438A44A12F04E721CD641E9614,
+	PointerGrabberConfigurator_set_TargetValidityRules_m1B302D179D8C233992F4A3339791F7BA1810D048,
+	PointerGrabberConfigurator_get_GrabOnEnterLogic_mCC2583AB22F84A7B7D6F224CEB5DEED765CE516A,
+	PointerGrabberConfigurator_set_GrabOnEnterLogic_mF567012F53E643D1ED86033C68C74057182C0C44,
+	PointerGrabberConfigurator_get_InteractorFollower_m1143908BDED938A0B93C5B4EEF35D9D389B89961,
+	PointerGrabberConfigurator_set_InteractorFollower_m4B8BC7CDF4F3190BF6D58399A1ABD07B7645DDE8,
+	PointerGrabberConfigurator_get_DefaultVelocityTracker_m0A14D49B1419BF47E06EC693961C45FE3C4CEF95,
+	PointerGrabberConfigurator_set_DefaultVelocityTracker_m69A00E28615D9AD4F4D6B8643C762B5C54EA8A3F,
+	PointerGrabberConfigurator_ConfigurePointer_m10C247119FCE6D370B65D29FCBF1EB8A6430D851,
+	PointerGrabberConfigurator_ConfigureInteractor_m93CA888D8DB16E72A3C02C138509F048A2668DEF,
+	PointerGrabberConfigurator_ConfigurePointerRules_m098F322E2E6F3F8AEA096C5FFD0D0B4683528574,
+	PointerGrabberConfigurator_ConfigureGrabOnEnter_m4FC02D390C854490B1CFC3D14D8B03477F80B3A6,
+	PointerGrabberConfigurator_OnEnable_m1EE8A153DE1A62CA3AEBF9CD4FEE7A8F28861470,
+	PointerGrabberConfigurator_SetLengthAxisProxySource_mD11EAF3C07AA603E2EA683FADF9356EEA098DF5B,
+	PointerGrabberConfigurator_SetObjectFollowerSource_m291ED2ABAF832F175E602440B0508DBBBECBA38E,
+	PointerGrabberConfigurator__ctor_m85E2FD194707C2A1A6432CA6DAB9E2A8A3C4651F,
+	PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_0_mD9C4088EA0D940ECE174D7644EC985FEB37F956A,
+	PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_1_m55890C446C3C92151726BC0CA5BD163DA0B529F8,
+	PointerGrabberConfigurator_U3CConfigurePointerU3Eb__36_2_m45A937C49A66F1534CC04D48710A692EAE5E0B9C,
+	PointerGrabberConfigurator_U3CConfigurePointerRulesU3Eb__38_0_m03116DF475EA2C9EEEE2B3D181638014F15C0245,
+	PointerGrabberConfigurator_U3CConfigurePointerRulesU3Eb__38_1_m5A121DF270FF58FA6434459A3DEB71609EC6BB53,
+	PointerGrabberFacade_get_FollowSource_m92030C1D9B509C1E0CB78DAABA9092132543FF41,
+	PointerGrabberFacade_set_FollowSource_m6A4876F909C3D3EEDA52CDF0B936F363952FBD69,
+	PointerGrabberFacade_get_ActivationAction_mEF5CC219FD271E2B47873F026B06B2A078EA52CF,
+	PointerGrabberFacade_set_ActivationAction_mF92D52D5E0059E6FADCF966F2212F55BC4502963,
+	PointerGrabberFacade_get_GrabAction_m0CA5CE3481BEFEEC9CC460958BE9DE34FEB4ECC5,
+	PointerGrabberFacade_set_GrabAction_mD1FC9F83E07AFEBCB78E8C398C786EA864CD508B,
+	PointerGrabberFacade_get_LengthAxisAction_m557618498213FF4E920E975945EBD58D6667F9B1,
+	PointerGrabberFacade_set_LengthAxisAction_m84372394A58DBB9102144729779C4D94DB02986B,
+	PointerGrabberFacade_get_LengthAxisMultiplier_m07D52472E66111AF1029ADB7A0E35B8A25D04F61,
+	PointerGrabberFacade_set_LengthAxisMultiplier_m528C0B7E597CA7F262191823A2EB044F74C7A9C4,
+	PointerGrabberFacade_get_VelocityTracker_m9FF94C0F0C7B4D30953727EFC7493CF16CCF88EF,
+	PointerGrabberFacade_set_VelocityTracker_mA98A695EDBAB1F11A729DAA9F610337AE2E78E00,
+	PointerGrabberFacade_get_AutoGrabOnEnter_m1B2115ADE7DEDE950C9BD280D7415ABCA57BB10F,
+	PointerGrabberFacade_set_AutoGrabOnEnter_m62855FB394F274B7E3021FE9553E0000242FDE0F,
+	PointerGrabberFacade_get_TargetValidity_mC523CB2A83E870D930F1B90157321A532827B959,
+	PointerGrabberFacade_set_TargetValidity_m665FE5C175E19EB3C24CA626C7C146019D4F8780,
+	PointerGrabberFacade_get_RaycastRules_mD6D3B123CE41CFBD66C569966D3A0B5345836E30,
+	PointerGrabberFacade_set_RaycastRules_m26331348101B21130FEF2EDAB55B7C7212D0F4F7,
+	PointerGrabberFacade_get_Configuration_m53E4BDC35D1879B195AFCB3B332BD39DC6770834,
+	PointerGrabberFacade_set_Configuration_m19E9847B34D42042DB1DD500AD1A2B5AD0017706,
+	PointerGrabberFacade_OnAfterFollowSourceChange_mAB664DD57B09CB969ED7C3C2032EE5885B733BD7,
+	PointerGrabberFacade_OnAfterActivationActionChange_m7F8E43E069E36F3DE964EB439EFD6FC6BA35EA22,
+	PointerGrabberFacade_OnAfterGrabActionChange_mC843FF9BBA3A3812A004D204200B29CA86126E00,
+	PointerGrabberFacade_OnAfterLengthAxisActionChange_mE780ED661FC0952757C95B92B0852ED82AA1BC8C,
+	PointerGrabberFacade_OnAfterLengthAxisMultiplierChange_mBF773DDF03B462C0C838A25E6D052EC4C82DF1C9,
+	PointerGrabberFacade_OnAfterVelocityTrackerChange_mC60EC7D40CCDD2FFD6E1168B9C8114905B3BDEFE,
+	PointerGrabberFacade_OnAfterAutoGrabOnEnterChange_m62F1B6F8B3DC9CA1AB2B16B5238E2847EA789041,
+	PointerGrabberFacade_OnAfterTargetValidityChange_mB9F8793489CE351E492036C1AC82A07023074006,
+	PointerGrabberFacade_OnAfterRaycastRulesChange_m77D62C28F5681D05EA6A28C818F0BB931CA65929,
+	PointerGrabberFacade__ctor_m18F0EB03922C9CF39C6CF445FDDFDA9B8D8494F9,
+};
+static const int32_t s_InvokerIndices[174] = 
+{
+	9081,
+	7338,
+	8952,
+	7206,
+	8952,
+	7206,
+	8952,
+	7206,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	8952,
+	7206,
+	9234,
+	9234,
+	9234,
+	9234,
+	7366,
+	9234,
+	9234,
+	9234,
+	7338,
+	9234,
+	7338,
+	7338,
+	7338,
+	7338,
+	9234,
+	9081,
+	9234,
+	9234,
+	5322,
+	9234,
+	9234,
+	7338,
+	7338,
+	7338,
+	7338,
+	9234,
+	6574,
+	9234,
+	15706,
+	9234,
+	9234,
+	9234,
+	9234,
+	7294,
+	9234,
+	8952,
+	9081,
+	9234,
+	9081,
+	7294,
+	9234,
+	8952,
+	9081,
+	9234,
+	9081,
+	9081,
+	7338,
+	9081,
+	7338,
+	9149,
+	7404,
+	9149,
+	7404,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9149,
+	7404,
+	9081,
+	7338,
+	8952,
+	7206,
+	9081,
+	7338,
+	9081,
+	7338,
+	9081,
+	7338,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+	9234,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Tilia_Interactions_PointerInteractors_Unity_Runtime_CodeGenModule;
+const Il2CppCodeGenModule g_Tilia_Interactions_PointerInteractors_Unity_Runtime_CodeGenModule = 
+{
+	"Tilia.Interactions.PointerInteractors.Unity.Runtime.dll",
+	174,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
