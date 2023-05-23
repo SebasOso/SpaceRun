@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MovementBlockManager : MonoBehaviour
 {
-    [SerializeField] private GameObject tp;
     [SerializeField] private ParticleSystem ps;
     [SerializeField] private AudioSource audioWeld;
     [SerializeField] private GameObject door;
@@ -12,9 +11,9 @@ public class MovementBlockManager : MonoBehaviour
     [SerializeField] private GameObject[] knifeList;
     [SerializeField] private AudioSource guideOne;
     [SerializeField] private AudioSource guideTwo;
+    [SerializeField] private GameObject collider;
     void Start()
     {
-        tp.SetActive(false);
         guideOne.Play();    
     }
     public void OnTP()
@@ -27,8 +26,8 @@ public class MovementBlockManager : MonoBehaviour
         audioWeld.Play();
         yield return new WaitForSeconds(audioWeld.clip.length);
         ps.Pause();
-        tp.SetActive(true);
         Destroy(door);
+        Destroy(collider);
         foreach (GameObject go in knifeList)
         {
             go.SetActive(false);
