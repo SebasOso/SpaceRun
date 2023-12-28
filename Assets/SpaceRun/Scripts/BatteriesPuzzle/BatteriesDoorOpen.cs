@@ -15,6 +15,8 @@ public class BatteriesDoorOpen : MonoBehaviour
     private Vector3 initialPosition;
     private Vector3 targetPosition;
     private bool isOpening = false;
+    private bool isAlreadyOpen = false;
+
     void Start()
     {
         initialPosition = m_Door.transform.position;
@@ -37,7 +39,9 @@ public class BatteriesDoorOpen : MonoBehaviour
     }
     public void OpenDoor()
     {
+        if (isAlreadyOpen) { return; }
         isOpening = true;
+        isAlreadyOpen = true;
         m_Door.GetComponent<Collider>().enabled = false;
         door.Play();
         completed.Play();
