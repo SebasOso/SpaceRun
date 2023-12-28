@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
+    path: Assets/SpaceRun/Scenes/Start.unity
     guid: da0974ecc9faa5e48afe45f3d078d5b4
   - enabled: 1
-    path: Assets/ensamblaje.unity
+    path: Assets/SpaceRun/Scenes/ensamblaje.unity
     guid: e031fb6b044328c4d9dd6f158fded668
   - enabled: 1
-    path: Assets/Scenes/End.unity
+    path: Assets/SpaceRun/Scenes/End.unity
     guid: 8f0bc337595a8664b979de2c5028452c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 08bf6b717a7cb7241afe9ef35b37f1bf,
