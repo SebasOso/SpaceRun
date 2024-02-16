@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/SpaceRun/Scenes/Start.unity
     guid: da0974ecc9faa5e48afe45f3d078d5b4
   - enabled: 1
-    path: Assets/SpaceRun/Scenes/ensamblaje.unity
+    path: Assets/SpaceRun/Scenes/LevelOne.unity
     guid: e031fb6b044328c4d9dd6f158fded668
   - enabled: 1
     path: Assets/SpaceRun/Scenes/End.unity
