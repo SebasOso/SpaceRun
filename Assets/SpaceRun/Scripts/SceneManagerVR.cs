@@ -16,6 +16,6 @@ public class SceneManagerVR : MonoBehaviour
         uiOne.SetActive(false);
         uiTwo.SetActive(true);
         yield return new WaitForSeconds(10);
-        SceneManager.LoadScene("ensamblaje");
+        SceneManager.LoadScene("LevelOne");
     }
 }

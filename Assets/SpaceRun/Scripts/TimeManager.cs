@@ -14,4 +14,17 @@ public class TimeManager : MonoBehaviour
         minutes = GameManager.Instance.tiempoTranscurrido / 60;
         textMeshProUGUI.text = minutes + (" MINUTES :D");
     }
+    private IEnumerator CollectTime()
+    {
+        yield return new WaitForSeconds(0.2f);
+        if(GameManager.Instance != null)
+        {
+            minutes = GameManager.Instance.tiempoTranscurrido / 60;
+            textMeshProUGUI.text = minutes + (" MINUTES :D");
+        }
+        else
+        {
+            textMeshProUGUI.text = "NO GAME MANAGER";
+        }
+    }
 }
